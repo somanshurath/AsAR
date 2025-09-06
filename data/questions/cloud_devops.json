@@ -1,0 +1,848 @@
+{
+  "assessment_questions": [
+    {
+      "questionID": "cd_c1_m1_mcq_01",
+      "type": "mcq",
+      "question": "In Python, which data type would be most suitable for storing a collection of unique items in no particular order?",
+      "options": ["List", "Tuple", "Dictionary", "Set"],
+      "value": "Set",
+      "moduleId": "cd_c1_m1"
+    },
+    {
+      "questionID": "cd_c1_m1_mcq_02",
+      "type": "mcq",
+      "question": "What is the primary purpose of a `requirements.txt` file in a Python project?",
+      "options": [
+        "To list the project's functional requirements for stakeholders.",
+        "To define the main script to be executed.",
+        "To specify the external Python libraries (dependencies) required by the project.",
+        "To document the project's code."
+      ],
+      "value": "To specify the external Python libraries (dependencies) required by the project.",
+      "moduleId": "cd_c1_m1"
+    },
+    {
+      "questionID": "cd_c1_m1_mcq_03",
+      "type": "mcq",
+      "question": "How would you open a file named `config.txt` for reading in Python?",
+      "options": [
+        "file = open('config.txt', 'w')",
+        "file = open('config.txt', 'r')",
+        "file = open('config.txt', 'a')",
+        "file = read('config.txt')"
+      ],
+      "value": "file = open('config.txt', 'r')",
+      "moduleId": "cd_c1_m1"
+    },
+    {
+      "questionID": "cd_c1_m1_mcq_04",
+      "type": "mcq",
+      "question": "In a DevOps context, Python scripts are often used for:",
+      "options": [
+        "Designing user interfaces.",
+        "Automating repetitive tasks like backups, deployments, or system checks.",
+        "Writing low-level operating system drivers.",
+        "Compiling C++ code."
+      ],
+      "value": "Automating repetitive tasks like backups, deployments, or system checks.",
+      "moduleId": "cd_c1_m1"
+    },
+    {
+      "questionID": "cd_c1_m2_mcq_01",
+      "type": "mcq",
+      "question": "Which cloud computing service model provides virtualized computing resources over the internet (e.g., virtual machines, storage)?",
+      "options": [
+        "PaaS (Platform as a Service)",
+        "SaaS (Software as a Service)",
+        "IaaS (Infrastructure as a Service)",
+        "FaaS (Function as a Service)"
+      ],
+      "value": "IaaS (Infrastructure as a Service)",
+      "moduleId": "cd_c1_m2"
+    },
+    {
+      "questionID": "cd_c1_m2_mcq_02",
+      "type": "mcq",
+      "question": "Microsoft 365 or Google Workspace are examples of which cloud service model?",
+      "options": ["IaaS", "PaaS", "SaaS", "On-premise"],
+      "value": "SaaS",
+      "moduleId": "cd_c1_m2"
+    },
+    {
+      "questionID": "cd_c1_m2_mcq_03",
+      "type": "mcq",
+      "question": "A cloud environment that combines a public cloud and a private cloud, allowing data and applications to be shared between them, is known as a:",
+      "options": [
+        "Community Cloud",
+        "Multi-Cloud",
+        "Hybrid Cloud",
+        "Public Cloud"
+      ],
+      "value": "Hybrid Cloud",
+      "moduleId": "cd_c1_m2"
+    },
+    {
+      "questionID": "cd_c1_m2_mcq_04",
+      "type": "mcq",
+      "question": "Which of the following is a primary benefit of cloud computing?",
+      "options": [
+        "High initial hardware investment.",
+        "Elasticity and scalability on demand.",
+        "Slow deployment of new applications.",
+        "Requires a large, dedicated IT staff to manage hardware."
+      ],
+      "value": "Elasticity and scalability on demand.",
+      "moduleId": "cd_c1_m2"
+    },
+    {
+      "questionID": "cd_c2_m1_mcq_01",
+      "type": "mcq",
+      "question": "Which AWS service provides secure, resizable compute capacity (virtual servers) in the cloud?",
+      "options": ["Amazon S3", "Amazon RDS", "Amazon EC2", "Amazon VPC"],
+      "value": "Amazon EC2",
+      "moduleId": "cd_c2_m1"
+    },
+    {
+      "questionID": "cd_c2_m1_mcq_02",
+      "type": "mcq",
+      "question": "For storing objects like images, videos, and backup data, which AWS service is most appropriate?",
+      "options": ["Amazon EBS", "Amazon RDS", "Amazon Glacier", "Amazon S3"],
+      "value": "Amazon S3",
+      "moduleId": "cd_c2_m1"
+    },
+    {
+      "questionID": "cd_c2_m1_mcq_03",
+      "type": "mcq",
+      "question": "What is the primary function of AWS IAM (Identity and Access Management)?",
+      "options": [
+        "To manage relational databases.",
+        "To provision a logically isolated section of the AWS Cloud.",
+        "To securely control access to AWS services and resources.",
+        "To monitor application performance."
+      ],
+      "value": "To securely control access to AWS services and resources.",
+      "moduleId": "cd_c2_m1"
+    },
+    {
+      "questionID": "cd_c2_m1_mcq_04",
+      "type": "mcq",
+      "question": "Amazon RDS (Relational Database Service) is a managed service for which type of database?",
+      "options": [
+        "NoSQL",
+        "Key-Value",
+        "SQL (like MySQL, PostgreSQL)",
+        "Document"
+      ],
+      "value": "SQL (like MySQL, PostgreSQL)",
+      "moduleId": "cd_c2_m1"
+    },
+    {
+      "questionID": "cd_c2_m2_mcq_01",
+      "type": "mcq",
+      "question": "In AWS, what acts as a virtual firewall for your EC2 instances to control inbound and outbound traffic?",
+      "options": [
+        "Network ACL (NACL)",
+        "IAM Policy",
+        "VPC Peering",
+        "Security Group"
+      ],
+      "value": "Security Group",
+      "moduleId": "cd_c2_m2"
+    },
+    {
+      "questionID": "cd_c2_m2_mcq_02",
+      "type": "mcq",
+      "question": "Which AWS service is used to distribute incoming application traffic across multiple EC2 instances?",
+      "options": [
+        "Auto Scaling",
+        "Elastic Load Balancing (ELB)",
+        "Amazon Route 53",
+        "AWS Direct Connect"
+      ],
+      "value": "Elastic Load Balancing (ELB)",
+      "moduleId": "cd_c2_m2"
+    },
+    {
+      "questionID": "cd_c2_m2_mcq_03",
+      "type": "mcq",
+      "question": "Network ACLs (NACLs) operate at the ______ level, while Security Groups operate at the ______ level.",
+      "options": [
+        "Instance, Subnet",
+        "VPC, Region",
+        "Subnet, Instance",
+        "Region, Availability Zone"
+      ],
+      "value": "Subnet, Instance",
+      "moduleId": "cd_c2_m2"
+    },
+    {
+      "questionID": "cd_c2_m2_mcq_04",
+      "type": "mcq",
+      "question": "What is the primary function of an Auto Scaling group in AWS?",
+      "options": [
+        "To manually increase or decrease the number of running EC2 instances.",
+        "To ensure a fixed number of instances are always running.",
+        "To automatically adjust the number of EC2 instances based on defined policies, schedules, or demand.",
+        "To balance traffic between different geographic regions."
+      ],
+      "value": "To automatically adjust the number of EC2 instances based on defined policies, schedules, or demand.",
+      "moduleId": "cd_c2_m2"
+    },
+    {
+      "questionID": "cd_c2_m3_mcq_01",
+      "type": "mcq",
+      "question": "Which of the following best describes the core philosophy of DevOps?",
+      "options": [
+        "A specific set of tools that must be used for software development.",
+        "A cultural and professional movement that emphasizes collaboration and communication between software developers and IT operations.",
+        "A methodology that focuses only on automating the deployment process.",
+        "A team of developers who also manage the servers."
+      ],
+      "value": "A cultural and professional movement that emphasizes collaboration and communication between software developers and IT operations.",
+      "moduleId": "cd_c2_m3"
+    },
+    {
+      "questionID": "cd_c2_m3_mcq_02",
+      "type": "mcq",
+      "question": "What is Docker?",
+      "options": [
+        "A virtual machine hypervisor.",
+        "A configuration management tool.",
+        "A platform for developing, shipping, and running applications in containers.",
+        "A continuous integration server."
+      ],
+      "value": "A platform for developing, shipping, and running applications in containers.",
+      "moduleId": "cd_c2_m3"
+    },
+    {
+      "questionID": "cd_c2_m3_mcq_03",
+      "type": "mcq",
+      "question": "In Git, what is the command to create a new branch?",
+      "options": [
+        "git new branch <branch-name>",
+        "git branch <branch-name>",
+        "git create <branch-name>",
+        "git checkout <branch-name>"
+      ],
+      "value": "git branch <branch-name>",
+      "moduleId": "cd_c2_m3"
+    },
+    {
+      "questionID": "cd_c2_m3_mcq_04",
+      "type": "mcq",
+      "question": "What is the primary benefit of containerization with Docker?",
+      "options": [
+        "It provides full hardware virtualization.",
+        "It packages an application with all of its dependencies into a standardized unit for software development.",
+        "It is only used for web servers.",
+        "It eliminates the need for a version control system."
+      ],
+      "value": "It packages an application with all of its dependencies into a standardized unit for software development.",
+      "moduleId": "cd_c2_m3"
+    },
+    {
+      "questionID": "cd_c2_m4_mcq_01",
+      "type": "mcq",
+      "question": "What is the primary goal of Continuous Integration (CI)?",
+      "options": [
+        "To manually deploy code to production once a month.",
+        "To automate the process of merging code changes from multiple developers into a central repository and running automated builds and tests.",
+        "To automatically provision infrastructure.",
+        "To monitor application performance after deployment."
+      ],
+      "value": "To automate the process of merging code changes from multiple developers into a central repository and running automated builds and tests.",
+      "moduleId": "cd_c2_m4"
+    },
+    {
+      "questionID": "cd_c2_m4_mcq_02",
+      "type": "mcq",
+      "question": "Jenkins is a popular open-source tool primarily used for:",
+      "options": [
+        "Version Control",
+        "Configuration Management",
+        "Automation and CI/CD pipelines",
+        "Container Orchestration"
+      ],
+      "value": "Automation and CI/CD pipelines",
+      "moduleId": "cd_c2_m4"
+    },
+    {
+      "questionID": "cd_c2_m4_mcq_03",
+      "type": "mcq",
+      "question": "In a CI/CD pipeline, what is the main purpose of a 'build' stage?",
+      "options": [
+        "To deploy the application to production servers.",
+        "To compile the source code and create an executable artifact.",
+        "To monitor the application for errors.",
+        "To write new feature code."
+      ],
+      "value": "To compile the source code and create an executable artifact.",
+      "moduleId": "cd_c2_m4"
+    },
+    {
+      "questionID": "cd_c2_m4_mcq_04",
+      "type": "mcq",
+      "question": "Which AWS service is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages?",
+      "options": [
+        "AWS CodeDeploy",
+        "AWS CodePipeline",
+        "AWS CodeCommit",
+        "AWS CodeBuild"
+      ],
+      "value": "AWS CodeBuild",
+      "moduleId": "cd_c2_m4"
+    },
+    {
+      "questionID": "cd_c2_m5_mcq_01",
+      "type": "mcq",
+      "question": "What does 'Infrastructure as Code' (IaC) mean?",
+      "options": [
+        "Writing infrastructure drivers in C.",
+        "Managing and provisioning infrastructure through machine-readable definition files, rather than physical hardware configuration.",
+        "A type of firmware for network switches.",
+        "A documentation standard for IT infrastructure."
+      ],
+      "value": "Managing and provisioning infrastructure through machine-readable definition files, rather than physical hardware configuration.",
+      "moduleId": "cd_c2_m5"
+    },
+    {
+      "questionID": "cd_c2_m5_mcq_02",
+      "type": "mcq",
+      "question": "Terraform, a popular IaC tool, uses a declarative configuration language called:",
+      "options": [
+        "JSON",
+        "Python",
+        "YAML",
+        "HCL (HashiCorp Configuration Language)"
+      ],
+      "value": "HCL (HashiCorp Configuration Language)",
+      "moduleId": "cd_c2_m5"
+    },
+    {
+      "questionID": "cd_c2_m5_mcq_03",
+      "type": "mcq",
+      "question": "What is the purpose of the `terraform apply` command?",
+      "options": [
+        "To preview the changes Terraform will make.",
+        "To initialize the Terraform working directory.",
+        "To apply the changes required to reach the desired state of the configuration.",
+        "To destroy all managed infrastructure."
+      ],
+      "value": "To apply the changes required to reach the desired state of the configuration.",
+      "moduleId": "cd_c2_m5"
+    },
+    {
+      "questionID": "cd_c2_m5_mcq_04",
+      "type": "mcq",
+      "question": "A key benefit of IaC is the ability to:",
+      "options": [
+        "Make infrastructure changes slower and more deliberate.",
+        "Eliminate the need for version control.",
+        "Replicate infrastructure environments quickly and consistently.",
+        "Completely prevent any server outages."
+      ],
+      "value": "Replicate infrastructure environments quickly and consistently.",
+      "moduleId": "cd_c2_m5"
+    },
+    {
+      "questionID": "cd_c2_m6_mcq_01",
+      "type": "mcq",
+      "question": "Ansible is a tool primarily used for:",
+      "options": [
+        "Software compilation.",
+        "Container orchestration.",
+        "IT automation, such as configuration management, application deployment, and task automation.",
+        "Log analysis."
+      ],
+      "value": "IT automation, such as configuration management, application deployment, and task automation.",
+      "moduleId": "cd_c2_m6"
+    },
+    {
+      "questionID": "cd_c2_m6_mcq_02",
+      "type": "mcq",
+      "question": "In Ansible, what is a 'Playbook'?",
+      "options": [
+        "A single command to be executed on a remote host.",
+        "A file where you define a set of tasks to be executed on managed nodes, written in YAML format.",
+        "A collection of managed nodes.",
+        "The central server that runs Ansible."
+      ],
+      "value": "A file where you define a set of tasks to be executed on managed nodes, written in YAML format.",
+      "moduleId": "cd_c2_m6"
+    },
+    {
+      "questionID": "cd_c2_m6_mcq_03",
+      "type": "mcq",
+      "question": "A significant feature of Ansible's architecture is that it is:",
+      "options": [
+        "Agent-based, requiring software to be installed on all managed nodes.",
+        "Agentless, typically communicating over SSH.",
+        "Requires a complex database setup to run.",
+        "Only works on Windows operating systems."
+      ],
+      "value": "Agentless, typically communicating over SSH.",
+      "moduleId": "cd_c2_m6"
+    },
+    {
+      "questionID": "cd_c2_m6_mcq_04",
+      "type": "mcq",
+      "question": "What is the purpose of an Ansible 'inventory' file?",
+      "options": [
+        "To define the tasks to be executed.",
+        "To store encrypted secrets.",
+        "To list the managed nodes (servers) that Ansible will connect to and manage.",
+        "To write the results of the playbook execution."
+      ],
+      "value": "To list the managed nodes (servers) that Ansible will connect to and manage.",
+      "moduleId": "cd_c2_m6"
+    },
+    {
+      "questionID": "cd_c2_m7_mcq_01",
+      "type": "mcq",
+      "question": "What is Kubernetes (k8s)?",
+      "options": [
+        "A container runtime like Docker.",
+        "An open-source container orchestration system for automating software deployment, scaling, and management.",
+        "A cloud provider like AWS or Azure.",
+        "A configuration management tool."
+      ],
+      "value": "An open-source container orchestration system for automating software deployment, scaling, and management.",
+      "moduleId": "cd_c2_m7"
+    },
+    {
+      "questionID": "cd_c2_m7_mcq_02",
+      "type": "mcq",
+      "question": "In Kubernetes, the smallest and simplest deployable unit is a:",
+      "options": ["Node", "Service", "Pod", "Container"],
+      "value": "Pod",
+      "moduleId": "cd_c2_m7"
+    },
+    {
+      "questionID": "cd_c2_m7_mcq_03",
+      "type": "mcq",
+      "question": "What is the function of a Kubernetes 'Service'?",
+      "options": [
+        "To run the containerized application.",
+        "To provide a stable endpoint (IP address and port) to access a set of Pods.",
+        "To define the desired state of your application.",
+        "To physically run the workloads."
+      ],
+      "value": "To provide a stable endpoint (IP address and port) to access a set of Pods.",
+      "moduleId": "cd_c2_m7"
+    },
+    {
+      "questionID": "cd_c2_m7_mcq_04",
+      "type": "mcq",
+      "question": "The command-line tool for interacting with a Kubernetes cluster is called:",
+      "options": ["docker-cli", "k8s-admin", "kube-shell", "kubectl"],
+      "value": "kubectl",
+      "moduleId": "cd_c2_m7"
+    },
+    {
+      "questionID": "cd_c2_m8_mcq_01",
+      "type": "mcq",
+      "question": "In Kubernetes, which object is typically used to manage a replicated application and handle rolling updates?",
+      "options": ["Pod", "StatefulSet", "Deployment", "DaemonSet"],
+      "value": "Deployment",
+      "moduleId": "cd_c2_m8"
+    },
+    {
+      "questionID": "cd_c2_m8_mcq_02",
+      "type": "mcq",
+      "question": "What is a 'StatefulSet' in Kubernetes used for?",
+      "options": [
+        "To manage stateless applications that can be easily replicated.",
+        "To ensure that a copy of a pod runs on all (or some) nodes in the cluster.",
+        "To manage the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods.",
+        "To expose an application running on a set of Pods as a network service."
+      ],
+      "value": "To manage the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods.",
+      "moduleId": "cd_c2_m8"
+    },
+    {
+      "questionID": "cd_c2_m8_mcq_03",
+      "type": "mcq",
+      "question": "A common open-source tool used for monitoring Kubernetes clusters and collecting metrics is:",
+      "options": ["Jenkins", "Prometheus", "Ansible", "Terraform"],
+      "value": "Prometheus",
+      "moduleId": "cd_c2_m8"
+    },
+    {
+      "questionID": "cd_c2_m8_mcq_04",
+      "type": "mcq",
+      "question": "The Horizontal Pod Autoscaler (HPA) in Kubernetes automatically scales the number of pods in a deployment based on:",
+      "options": [
+        "The time of day.",
+        "A fixed schedule.",
+        "Observed CPU utilization or other select metrics.",
+        "The number of nodes in the cluster."
+      ],
+      "value": "Observed CPU utilization or other select metrics.",
+      "moduleId": "cd_c2_m8"
+    },
+    {
+      "questionID": "cd_c3_m1_mcq_01",
+      "type": "mcq",
+      "question": "Which Azure service is the equivalent of Amazon EC2 for providing virtual machines?",
+      "options": [
+        "Azure Functions",
+        "Azure Blob Storage",
+        "Azure Virtual Machines",
+        "Azure SQL Database"
+      ],
+      "value": "Azure Virtual Machines",
+      "moduleId": "cd_c3_m1"
+    },
+    {
+      "questionID": "cd_c3_m1_mcq_02",
+      "type": "mcq",
+      "question": "What is the primary identity and access management service in Azure?",
+      "options": [
+        "Azure Security Center",
+        "Azure Active Directory (AAD)",
+        "Azure Key Vault",
+        "Azure Policy"
+      ],
+      "value": "Azure Active Directory (AAD)",
+      "moduleId": "cd_c3_m1"
+    },
+    {
+      "questionID": "cd_c3_m1_mcq_03",
+      "type": "mcq",
+      "question": "Azure Blob Storage is a service used for storing large amounts of:",
+      "options": [
+        "Structured relational data.",
+        "Unstructured data, such as text or binary data.",
+        "User credentials.",
+        "Virtual machine configurations."
+      ],
+      "value": "Unstructured data, such as text or binary data.",
+      "moduleId": "cd_c3_m1"
+    },
+    {
+      "questionID": "cd_c3_m1_mcq_04",
+      "type": "mcq",
+      "question": "Which Azure service allows you to run event-triggered code without having to provision or manage servers (serverless compute)?",
+      "options": [
+        "Azure App Service",
+        "Azure Kubernetes Service (AKS)",
+        "Azure Functions",
+        "Azure Virtual Machines"
+      ],
+      "value": "Azure Functions",
+      "moduleId": "cd_c3_m1"
+    },
+    {
+      "questionID": "cd_c3_m2_mcq_01",
+      "type": "mcq",
+      "question": "Which Azure service provides a full suite of DevOps tools, including version control (Repos), CI/CD (Pipelines), and agile planning?",
+      "options": [
+        "Azure Monitor",
+        "Azure DevOps",
+        "Azure Logic Apps",
+        "Azure Resource Manager"
+      ],
+      "value": "Azure DevOps",
+      "moduleId": "cd_c3_m2"
+    },
+    {
+      "questionID": "cd_c3_m2_mcq_02",
+      "type": "mcq",
+      "question": "What is the managed Kubernetes service in Azure called?",
+      "options": [
+        "Azure Container Instances (ACI)",
+        "Azure Kubernetes Service (AKS)",
+        "Azure Service Fabric",
+        "Azure App Service"
+      ],
+      "value": "Azure Kubernetes Service (AKS)",
+      "moduleId": "cd_c3_m2"
+    },
+    {
+      "questionID": "cd_c3_m2_mcq_03",
+      "type": "mcq",
+      "question": "The native Infrastructure as Code (IaC) solution for Azure, used to define and deploy resources from templates, is called:",
+      "options": [
+        "Terraform",
+        "Ansible Playbooks",
+        "Azure Blueprints",
+        "ARM Templates (Azure Resource Manager)"
+      ],
+      "value": "ARM Templates (Azure Resource Manager)",
+      "moduleId": "cd_c3_m2"
+    },
+    {
+      "questionID": "cd_c3_m2_mcq_04",
+      "type": "mcq",
+      "question": "In Azure Pipelines, a YAML file is commonly used to define the:",
+      "options": [
+        "List of users with access.",
+        "Network security rules.",
+        "Stages, jobs, and steps of the CI/CD pipeline.",
+        "Billing and subscription information."
+      ],
+      "value": "Stages, jobs, and steps of the CI/CD pipeline.",
+      "moduleId": "cd_c3_m2"
+    },
+    {
+      "questionID": "cd_c4_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is the primary compute service in Google Cloud Platform (GCP) for running virtual machines?",
+      "options": [
+        "Google Cloud Storage",
+        "Google Cloud SQL",
+        "Google Compute Engine",
+        "Google App Engine"
+      ],
+      "value": "Google Compute Engine",
+      "moduleId": "cd_c4_m1"
+    },
+    {
+      "questionID": "cd_c4_m1_mcq_02",
+      "type": "mcq",
+      "question": "Which GCP service is analogous to AWS S3 and Azure Blob Storage for object storage?",
+      "options": [
+        "Google Cloud Filestore",
+        "Google Persistent Disk",
+        "Google Cloud Storage",
+        "Google Cloud SQL"
+      ],
+      "value": "Google Cloud Storage",
+      "moduleId": "cd_c4_m1"
+    },
+    {
+      "questionID": "cd_c4_m1_mcq_03",
+      "type": "mcq",
+      "question": "In GCP, identity and access management is controlled by which service?",
+      "options": [
+        "Cloud Security Scanner",
+        "Cloud Armor",
+        "Cloud IAM (Identity and Access Management)",
+        "Virtual Private Cloud (VPC)"
+      ],
+      "value": "Cloud IAM (Identity and Access Management)",
+      "moduleId": "cd_c4_m1"
+    },
+    {
+      "questionID": "cd_c4_m1_mcq_04",
+      "type": "mcq",
+      "question": "Google Cloud SQL provides a fully-managed service for which types of databases?",
+      "options": [
+        "Only NoSQL databases.",
+        "Relational databases like MySQL, PostgreSQL, and SQL Server.",
+        "Graph databases only.",
+        "In-memory databases like Redis."
+      ],
+      "value": "Relational databases like MySQL, PostgreSQL, and SQL Server.",
+      "moduleId": "cd_c4_m1"
+    },
+    {
+      "questionID": "cd_c4_m2_mcq_01",
+      "type": "mcq",
+      "question": "What is the managed Kubernetes service in Google Cloud Platform called?",
+      "options": [
+        "Google Compute Engine",
+        "Google Cloud Run",
+        "Google App Engine",
+        "Google Kubernetes Engine (GKE)"
+      ],
+      "value": "Google Kubernetes Engine (GKE)",
+      "moduleId": "cd_c4_m2"
+    },
+    {
+      "questionID": "cd_c4_m2_mcq_02",
+      "type": "mcq",
+      "question": "Which GCP service is used to build, test, and deploy software quickly by creating CI/CD pipelines?",
+      "options": [
+        "Google Cloud Source Repositories",
+        "Google Cloud Build",
+        "Google Container Registry",
+        "Google Deployment Manager"
+      ],
+      "value": "Google Cloud Build",
+      "moduleId": "cd_c4_m2"
+    },
+    {
+      "questionID": "cd_c4_m2_mcq_03",
+      "type": "mcq",
+      "question": "The native Infrastructure as Code (IaC) service on GCP for creating and managing cloud resources with templates is:",
+      "options": [
+        "Cloud Foundation Toolkit",
+        "Terraform",
+        "Cloud Deployment Manager",
+        "Cloud Shell"
+      ],
+      "value": "Cloud Deployment Manager",
+      "moduleId": "cd_c4_m2"
+    },
+    {
+      "questionID": "cd_c4_m2_mcq_04",
+      "type": "mcq",
+      "question": "Puppet is a tool that can be used on GCP for:",
+      "options": [
+        "Container orchestration.",
+        "Version control.",
+        "Configuration management to automate the setup and maintenance of servers.",
+        "Building CI/CD pipelines."
+      ],
+      "value": "Configuration management to automate the setup and maintenance of servers.",
+      "moduleId": "cd_c4_m2"
+    },
+    {
+      "questionID": "cd_c5_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is the core principle of DevSecOps?",
+      "options": [
+        "Security is the final step in the development lifecycle.",
+        "Security is only the responsibility of a dedicated security team.",
+        "Integrating security practices and automation into every phase of the DevOps pipeline ('shifting left').",
+        "Replacing all developers with security experts."
+      ],
+      "value": "Integrating security practices and automation into every phase of the DevOps pipeline ('shifting left').",
+      "moduleId": "cd_c5_m1"
+    },
+    {
+      "questionID": "cd_c5_m1_mcq_02",
+      "type": "mcq",
+      "question": "SAST (Static Application Security Testing) is a type of security analysis that:",
+      "options": [
+        "Analyzes an application while it is running.",
+        "Analyzes the application's source code for vulnerabilities without executing it.",
+        "Tests the network for open ports.",
+        "Performs penetration testing on the live application."
+      ],
+      "value": "Analyzes the application's source code for vulnerabilities without executing it.",
+      "moduleId": "cd_c5_m1"
+    },
+    {
+      "questionID": "cd_c5_m1_mcq_03",
+      "type": "mcq",
+      "question": "Which of the following is a best practice for container security?",
+      "options": [
+        "Running all containers as the root user.",
+        "Using a public container image from an unknown source without scanning it.",
+        "Regularly scanning container images for known vulnerabilities.",
+        "Storing secret keys directly in the container image."
+      ],
+      "value": "Regularly scanning container images for known vulnerabilities.",
+      "moduleId": "cd_c5_m1"
+    },
+    {
+      "questionID": "cd_c5_m1_mcq_04",
+      "type": "mcq",
+      "question": "What is the primary purpose of a 'secrets management' tool like HashiCorp Vault or AWS Secrets Manager?",
+      "options": [
+        "To store public code.",
+        "To securely store, manage, and control access to tokens, passwords, certificates, and API keys.",
+        "To manage user interface designs.",
+        "To track software bugs."
+      ],
+      "value": "To securely store, manage, and control access to tokens, passwords, certificates, and API keys.",
+      "moduleId": "cd_c5_m1"
+    },
+    {
+      "questionID": "cd_c5_m2_mcq_01",
+      "type": "mcq",
+      "question": "What does an 'advanced' DevOps pipeline often include that a basic one might not?",
+      "options": [
+        "Code compilation.",
+        "Automated unit testing.",
+        "Automated security scanning, performance testing, and progressive deployment strategies like canary releases.",
+        "Manual deployment to a single server."
+      ],
+      "value": "Automated security scanning, performance testing, and progressive deployment strategies like canary releases.",
+      "moduleId": "cd_c5_m2"
+    },
+    {
+      "questionID": "cd_c5_m2_mcq_02",
+      "type": "mcq",
+      "question": "The SynOps (Synergistic Operations) methodology aims to:",
+      "options": [
+        "Create more separation between development and operations teams.",
+        "Focus exclusively on manual operational tasks.",
+        "Optimize operational processes by deeply integrating AI, data analytics, and automation.",
+        "Replace all operational staff with developers."
+      ],
+      "value": "Optimize operational processes by deeply integrating AI, data analytics, and automation.",
+      "moduleId": "cd_c5_m2"
+    },
+    {
+      "questionID": "cd_c5_m2_mcq_03",
+      "type": "mcq",
+      "question": "Which of the following is a key component of implementing a SynOps approach?",
+      "options": [
+        "Relying on human intuition for all decisions.",
+        "Avoiding all forms of automation.",
+        "Collecting and analyzing operational data to drive decision-making.",
+        "Increasing the number of manual hand-offs between teams."
+      ],
+      "value": "Collecting and analyzing operational data to drive decision-making.",
+      "moduleId": "cd_c5_m2"
+    },
+    {
+      "questionID": "cd_c5_m2_mcq_04",
+      "type": "mcq",
+      "question": "An advanced use case for a DevOps pipeline could involve:",
+      "options": [
+        "Deploying a simple static website.",
+        "Automatically provisioning a temporary testing environment, running tests, and tearing it down.",
+        "Manually copying files to a server via FTP.",
+        "Emailing the source code to the operations team."
+      ],
+      "value": "Automatically provisioning a temporary testing environment, running tests, and tearing it down.",
+      "moduleId": "cd_c5_m2"
+    },
+    {
+      "questionID": "cd_c6_m1_mcq_01",
+      "type": "mcq",
+      "question": "How is Generative AI being used to impact DevOps practices?",
+      "options": [
+        "By generating IaC configurations (like Terraform or CloudFormation) from natural language descriptions.",
+        "By automatically writing shell scripts for automation tasks.",
+        "By creating test cases based on the application code.",
+        "All of the above."
+      ],
+      "value": "All of the above.",
+      "moduleId": "cd_c6_m1"
+    },
+    {
+      "questionID": "cd_c6_m1_mcq_02",
+      "type": "mcq",
+      "question": "A tool like AWS CodeGuru is an example of an AI service that can be integrated into a pipeline to:",
+      "options": [
+        "Design a user interface.",
+        "Provide intelligent recommendations to improve code quality and identify bugs.",
+        "Provision virtual machines.",
+        "Manage user authentication."
+      ],
+      "value": "Provide intelligent recommendations to improve code quality and identify bugs.",
+      "moduleId": "cd_c6_m1"
+    },
+    {
+      "questionID": "cd_c6_m1_mcq_03",
+      "type": "mcq",
+      "question": "Snyk is a developer security platform that can be used in a DevOps pipeline to:",
+      "options": [
+        "Automatically find and fix vulnerabilities in your code, open source dependencies, and containers.",
+        "Optimize the cost of your cloud infrastructure.",
+        "Manage project deadlines.",
+        "Create performance reports for management."
+      ],
+      "value": "Automatically find and fix vulnerabilities in your code, open source dependencies, and containers.",
+      "moduleId": "cd_c6_m1"
+    },
+    {
+      "questionID": "cd_c6_m1_mcq_04",
+      "type": "mcq",
+      "question": "What is an APM (Application Performance Monitoring) tool used for in a Cloud/DevOps context?",
+      "options": [
+        "To write application code.",
+        "To monitor the performance of applications, detect issues, and provide insights for optimization.",
+        "To manage source code repositories.",
+        "To deploy applications to servers."
+      ],
+      "value": "To monitor the performance of applications, detect issues, and provide insights for optimization.",
+      "moduleId": "cd_c6_m1"
+    }
+  ]
+}

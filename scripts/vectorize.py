@@ -4,7 +4,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 # --- Configuration ---
-DATA_DIRECTORY = "data"
+DATA_DIRECTORY = "data/courses"
 DB_DIRECTORY = "module_db"
 COLLECTION_NAME = "course_modules"
 MODEL_NAME = 'all-MiniLM-L6-v2'

@@ -1,0 +1,1184 @@
+{
+  "assessment_questions": [
+    {
+      "questionID": "fsd_c1_m1_mcq_01",
+      "type": "mcq",
+      "question": "Which of the following is the correct syntax for the main method in a Java application?",
+      "options": [
+        "public static void main()",
+        "static public void main(String[] args)",
+        "public static void main(String[] args)",
+        "private void main(String args[])"
+      ],
+      "value": "public static void main(String[] args)",
+      "moduleId": "fsd_c1_m1"
+    },
+    {
+      "questionID": "fsd_c1_m1_mcq_02",
+      "type": "mcq",
+      "question": "Which of these is a primitive data type in Java?",
+      "options": ["String", "Array", "int", "Object"],
+      "value": "int",
+      "moduleId": "fsd_c1_m1"
+    },
+    {
+      "questionID": "fsd_c1_m1_mcq_03",
+      "type": "mcq",
+      "question": "A `for` loop is an example of which type of programming construct?",
+      "options": [
+        "Data Type",
+        "Control Structure (Iteration)",
+        "Class Definition",
+        "Exception"
+      ],
+      "value": "Control Structure (Iteration)",
+      "moduleId": "fsd_c1_m1"
+    },
+    {
+      "questionID": "fsd_c1_m1_mcq_04",
+      "type": "mcq",
+      "question": "To make a decision in code based on a condition, you would use a(n):",
+      "options": [
+        "while loop",
+        "if-else statement",
+        "switch statement",
+        "Both B and C"
+      ],
+      "value": "Both B and C",
+      "moduleId": "fsd_c1_m1"
+    },
+    {
+      "questionID": "fsd_c1_m2_mcq_01",
+      "type": "mcq",
+      "question": "In Object-Oriented Programming, what is a 'class'?",
+      "options": [
+        "An instance of an object.",
+        "A blueprint or template for creating objects.",
+        "A method that belongs to an object.",
+        "A primitive data type."
+      ],
+      "value": "A blueprint or template for creating objects.",
+      "moduleId": "fsd_c1_m2"
+    },
+    {
+      "questionID": "fsd_c1_m2_mcq_02",
+      "type": "mcq",
+      "question": "Which Java keyword is used to implement inheritance, allowing one class to acquire the properties of another?",
+      "options": ["implements", "inherits", "super", "extends"],
+      "value": "extends",
+      "moduleId": "fsd_c1_m2"
+    },
+    {
+      "questionID": "fsd_c1_m2_mcq_03",
+      "type": "mcq",
+      "question": "The ability of an object to take on many forms, for example, a method having the same name but different implementations in parent and child classes, is known as:",
+      "options": [
+        "Encapsulation",
+        "Polymorphism",
+        "Abstraction",
+        "Inheritance"
+      ],
+      "value": "Polymorphism",
+      "moduleId": "fsd_c1_m2"
+    },
+    {
+      "questionID": "fsd_c1_m2_mcq_04",
+      "type": "mcq",
+      "question": "What is the primary goal of 'Encapsulation' in OOP?",
+      "options": [
+        "To allow methods to be used by many different types of objects.",
+        "To create a new class from an existing class.",
+        "To bundle data (attributes) and methods that work on the data into a single unit.",
+        "To hide complex implementation details from the user."
+      ],
+      "value": "To bundle data (attributes) and methods that work on the data into a single unit.",
+      "moduleId": "fsd_c1_m2"
+    },
+    {
+      "questionID": "fsd_c1_m3_mcq_01",
+      "type": "mcq",
+      "question": "Which of the following is a way to create a thread in Java?",
+      "options": [
+        "By extending the `Thread` class.",
+        "By implementing the `Runnable` interface.",
+        "By using the `ExecutorService`.",
+        "All of the above."
+      ],
+      "value": "All of the above.",
+      "moduleId": "fsd_c1_m3"
+    },
+    {
+      "questionID": "fsd_c1_m3_mcq_02",
+      "type": "mcq",
+      "question": "In Java, what is the purpose of a `try-catch` block?",
+      "options": [
+        "To declare a new variable.",
+        "To create a loop.",
+        "To handle exceptions and prevent the program from crashing.",
+        "To define a new method."
+      ],
+      "value": "To handle exceptions and prevent the program from crashing.",
+      "moduleId": "fsd_c1_m3"
+    },
+    {
+      "questionID": "fsd_c1_m3_mcq_03",
+      "type": "mcq",
+      "question": "A lambda expression in Java is a short block of code which takes in parameters and returns a value. It is also known as a(n):",
+      "options": ["Class", "Object", "Anonymous function", "Constructor"],
+      "value": "Anonymous function",
+      "moduleId": "fsd_c1_m3"
+    },
+    {
+      "questionID": "fsd_c1_m3_mcq_04",
+      "type": "mcq",
+      "question": "Which class is commonly used for reading character files in Java?",
+      "options": ["FileReader", "FileStream", "InputReader", "CharacterParser"],
+      "value": "FileReader",
+      "moduleId": "fsd_c1_m3"
+    },
+    {
+      "questionID": "fsd_c1_m4_mcq_01",
+      "type": "mcq",
+      "question": "What is UML (Unified Modeling Language) primarily used for in software design?",
+      "options": [
+        "Writing the actual program code.",
+        "Visually representing the design and structure of a software system.",
+        "Compiling the source code into an executable file.",
+        "Debugging runtime errors."
+      ],
+      "value": "Visually representing the design and structure of a software system.",
+      "moduleId": "fsd_c1_m4"
+    },
+    {
+      "questionID": "fsd_c1_m4_mcq_02",
+      "type": "mcq",
+      "question": "Which version control system is the most widely used in modern software development?",
+      "options": ["SVN", "Mercurial", "CVS", "Git"],
+      "value": "Git",
+      "moduleId": "fsd_c1_m4"
+    },
+    {
+      "questionID": "fsd_c1_m4_mcq_03",
+      "type": "mcq",
+      "question": "What is the primary purpose of 'Unit Testing'?",
+      "options": [
+        "To test the entire application as a whole.",
+        "To test how different modules interact with each other.",
+        "To test individual components or methods of the software in isolation.",
+        "To let end-users test the application for bugs."
+      ],
+      "value": "To test individual components or methods of the software in isolation.",
+      "moduleId": "fsd_c1_m4"
+    },
+    {
+      "questionID": "fsd_c1_m4_mcq_04",
+      "type": "mcq",
+      "question": "In Git, what does the `git commit` command do?",
+      "options": [
+        "It downloads changes from a remote repository.",
+        "It saves the staged changes to the local repository's history.",
+        "It uploads changes to a remote repository.",
+        "It creates a new branch."
+      ],
+      "value": "It saves the staged changes to the local repository's history.",
+      "moduleId": "fsd_c1_m4"
+    },
+    {
+      "questionID": "fsd_c2_m1_mcq_01",
+      "type": "mcq",
+      "question": "What does 'Big O' notation (e.g., O(n)) represent in algorithm analysis?",
+      "options": [
+        "The exact time an algorithm takes to run.",
+        "The amount of memory an algorithm uses.",
+        "The worst-case time complexity, or how the runtime scales with the input size.",
+        "The best-case time complexity."
+      ],
+      "value": "The worst-case time complexity, or how the runtime scales with the input size.",
+      "moduleId": "fsd_c2_m1"
+    },
+    {
+      "questionID": "fsd_c2_m1_mcq_02",
+      "type": "mcq",
+      "question": "In bit manipulation, what does the left shift operator `<<` do? For example, `5 << 1`.",
+      "options": [
+        "Divides the number by 2.",
+        "Multiplies the number by 2.",
+        "Adds 1 to the number.",
+        "Flips all the bits of the number."
+      ],
+      "value": "Multiplies the number by 2.",
+      "moduleId": "fsd_c2_m1"
+    },
+    {
+      "questionID": "fsd_c2_m1_mcq_03",
+      "type": "mcq",
+      "question": "An algorithm with a time complexity of O(1) is said to run in:",
+      "options": [
+        "Linear time",
+        "Logarithmic time",
+        "Quadratic time",
+        "Constant time"
+      ],
+      "value": "Constant time",
+      "moduleId": "fsd_c2_m1"
+    },
+    {
+      "questionID": "fsd_c2_m1_mcq_04",
+      "type": "mcq",
+      "question": "The bitwise AND operator `&` in many programming languages returns 1 for a bit position if and only if:",
+      "options": [
+        "The corresponding bit in either operand is 1.",
+        "The corresponding bits in both operands are 1.",
+        "The corresponding bit in the first operand is 1.",
+        "The corresponding bits are different."
+      ],
+      "value": "The corresponding bits in both operands are 1.",
+      "moduleId": "fsd_c2_m1"
+    },
+    {
+      "questionID": "fsd_c2_m2_mcq_01",
+      "type": "mcq",
+      "question": "What is a key disadvantage of an array compared to a linked list?",
+      "options": [
+        "Arrays have slow random access to elements.",
+        "Arrays typically have a fixed size defined at creation.",
+        "Arrays use more memory per element.",
+        "It is faster to iterate through an array."
+      ],
+      "value": "Arrays typically have a fixed size defined at creation.",
+      "moduleId": "fsd_c2_m2"
+    },
+    {
+      "questionID": "fsd_c2_m2_mcq_02",
+      "type": "mcq",
+      "question": "A linked list is a data structure consisting of a group of nodes which together represent a sequence. Each node contains:",
+      "options": [
+        "Only data.",
+        "Only a pointer to the next node.",
+        "Data and a pointer to the next node.",
+        "An index number."
+      ],
+      "value": "Data and a pointer to the next node.",
+      "moduleId": "fsd_c2_m2"
+    },
+    {
+      "questionID": "fsd_c2_m2_mcq_03",
+      "type": "mcq",
+      "question": "Accessing an element by its index is fastest in which data structure?",
+      "options": ["Singly Linked List", "Array", "Doubly Linked List", "Stack"],
+      "value": "Array",
+      "moduleId": "fsd_c2_m2"
+    },
+    {
+      "questionID": "fsd_c2_m2_mcq_04",
+      "type": "mcq",
+      "question": "For which operation is a linked list generally more efficient than a dynamic array?",
+      "options": [
+        "Accessing the last element.",
+        "Accessing an element at a specific index.",
+        "Inserting or deleting an element at the beginning of the list.",
+        "Getting the size of the list."
+      ],
+      "value": "Inserting or deleting an element at the beginning of the list.",
+      "moduleId": "fsd_c2_m2"
+    },
+    {
+      "questionID": "fsd_c2_m3_mcq_01",
+      "type": "mcq",
+      "question": "A stack data structure operates on which principle?",
+      "options": [
+        "First-In, First-Out (FIFO)",
+        "Last-In, First-Out (LIFO)",
+        "First-In, Last-Out (FILO)",
+        "Random Access"
+      ],
+      "value": "Last-In, First-Out (LIFO)",
+      "moduleId": "fsd_c2_m3"
+    },
+    {
+      "questionID": "fsd_c2_m3_mcq_02",
+      "type": "mcq",
+      "question": "A queue data structure operates on which principle?",
+      "options": [
+        "Last-In, First-Out (LIFO)",
+        "First-In, First-Out (FIFO)",
+        "Last-In, Last-Out (LILO)",
+        "Highest Priority First"
+      ],
+      "value": "First-In, First-Out (FIFO)",
+      "moduleId": "fsd_c2_m3"
+    },
+    {
+      "questionID": "fsd_c2_m3_mcq_03",
+      "type": "mcq",
+      "question": "The operation to add an item to a stack is called:",
+      "options": ["Enqueue", "Push", "Insert", "Add"],
+      "value": "Push",
+      "moduleId": "fsd_c2_m3"
+    },
+    {
+      "questionID": "fsd_c2_m3_mcq_04",
+      "type": "mcq",
+      "question": "The operation to remove an item from the front of a queue is called:",
+      "options": ["Pop", "Remove", "Dequeue", "Delete"],
+      "value": "Dequeue",
+      "moduleId": "fsd_c2_m3"
+    },
+    {
+      "questionID": "fsd_c2_m4_mcq_01",
+      "type": "mcq",
+      "question": "Which searching algorithm requires the data to be sorted beforehand?",
+      "options": [
+        "Linear Search",
+        "Binary Search",
+        "Depth-First Search",
+        "Breadth-First Search"
+      ],
+      "value": "Binary Search",
+      "moduleId": "fsd_c2_m4"
+    },
+    {
+      "questionID": "fsd_c2_m4_mcq_02",
+      "type": "mcq",
+      "question": "What is the worst-case time complexity of the Bubble Sort algorithm?",
+      "options": ["O(n log n)", "O(n)", "O(n^2)", "O(log n)"],
+      "value": "O(n^2)",
+      "moduleId": "fsd_c2_m4"
+    },
+    {
+      "questionID": "fsd_c2_m4_mcq_03",
+      "type": "mcq",
+      "question": "Merge Sort and Quick Sort algorithms have an average time complexity of:",
+      "options": ["O(n^2)", "O(n log n)", "O(n)", "O(1)"],
+      "value": "O(n log n)",
+      "moduleId": "fsd_c2_m4"
+    },
+    {
+      "questionID": "fsd_c2_m4_mcq_04",
+      "type": "mcq",
+      "question": "Which sorting algorithm works by repeatedly swapping adjacent elements if they are in the wrong order?",
+      "options": ["Merge Sort", "Quick Sort", "Insertion Sort", "Bubble Sort"],
+      "value": "Bubble Sort",
+      "moduleId": "fsd_c2_m4"
+    },
+    {
+      "questionID": "fsd_c2_m5_mcq_01",
+      "type": "mcq",
+      "question": "The core principle of a greedy algorithm is to:",
+      "options": [
+        "Explore all possible solutions to find the best one.",
+        "Make the locally optimal choice at each stage with the hope of finding a global optimum.",
+        "Break a problem down into smaller, overlapping subproblems.",
+        "Randomly guess solutions until a correct one is found."
+      ],
+      "value": "Make the locally optimal choice at each stage with the hope of finding a global optimum.",
+      "moduleId": "fsd_c2_m5"
+    },
+    {
+      "questionID": "fsd_c2_m5_mcq_02",
+      "type": "mcq",
+      "question": "For which of the following problems does a greedy algorithm NOT always produce the optimal solution?",
+      "options": [
+        "Dijkstra's Shortest Path Algorithm",
+        "Prim's Minimum Spanning Tree Algorithm",
+        "0/1 Knapsack Problem",
+        "Huffman Coding"
+      ],
+      "value": "0/1 Knapsack Problem",
+      "moduleId": "fsd_c2_m5"
+    },
+    {
+      "questionID": "fsd_c2_m5_mcq_03",
+      "type": "mcq",
+      "question": "A key advantage of greedy algorithms is that they are often:",
+      "options": [
+        "Guaranteed to be optimal",
+        "Easier to implement and faster than other methods",
+        "Able to handle all types of problem constraints",
+        "More memory-intensive"
+      ],
+      "value": "Easier to implement and faster than other methods",
+      "moduleId": "fsd_c2_m5"
+    },
+    {
+      "questionID": "fsd_c2_m5_mcq_04",
+      "type": "mcq",
+      "question": "Dijkstra's algorithm for finding the shortest path in a graph is an example of a:",
+      "options": [
+        "Divide and Conquer algorithm",
+        "Dynamic Programming algorithm",
+        "Greedy algorithm",
+        "Brute-force algorithm"
+      ],
+      "value": "Greedy algorithm",
+      "moduleId": "fsd_c2_m5"
+    },
+    {
+      "questionID": "fsd_c2_m6_mcq_01",
+      "type": "mcq",
+      "question": "Dynamic Programming is a method for solving complex problems by breaking them down into simpler:",
+      "options": [
+        "Independent stages",
+        "Greedy choices",
+        "Overlapping subproblems",
+        "Random steps"
+      ],
+      "value": "Overlapping subproblems",
+      "moduleId": "fsd_c2_m6"
+    },
+    {
+      "questionID": "fsd_c2_m6_mcq_02",
+      "type": "mcq",
+      "question": "The technique of storing the results of expensive function calls and returning the cached result when the same inputs occur again is called:",
+      "options": ["Recursion", "Memoization", "Iteration", "Optimization"],
+      "value": "Memoization",
+      "moduleId": "fsd_c2_m6"
+    },
+    {
+      "questionID": "fsd_c2_m6_mcq_03",
+      "type": "mcq",
+      "question": "Which of these problems is a classic example that can be solved efficiently using dynamic programming?",
+      "options": [
+        "Sorting an array",
+        "Finding the shortest path in an unweighted graph",
+        "Calculating Fibonacci numbers",
+        "Finding the maximum element in an array"
+      ],
+      "value": "Calculating Fibonacci numbers",
+      "moduleId": "fsd_c2_m6"
+    },
+    {
+      "questionID": "fsd_c2_m6_mcq_04",
+      "type": "mcq",
+      "question": "The main difference between Dynamic Programming and Divide and Conquer is that DP subproblems are:",
+      "options": ["Independent", "Larger", "Overlapping", "Simpler"],
+      "value": "Overlapping",
+      "moduleId": "fsd_c2_m6"
+    },
+    {
+      "questionID": "fsd_c2_m7_mcq_01",
+      "type": "mcq",
+      "question": "Which data structure is efficient for representing a sparse graph (a graph with few edges)?",
+      "options": [
+        "Adjacency Matrix",
+        "Adjacency List",
+        "Incidence Matrix",
+        "A 2D Array"
+      ],
+      "value": "Adjacency List",
+      "moduleId": "fsd_c2_m7"
+    },
+    {
+      "questionID": "fsd_c2_m7_mcq_02",
+      "type": "mcq",
+      "question": "Which graph traversal algorithm explores as far as possible along each branch before backtracking?",
+      "options": [
+        "Breadth-First Search (BFS)",
+        "Depth-First Search (DFS)",
+        "Dijkstra's Algorithm",
+        "A* Search Algorithm"
+      ],
+      "value": "Depth-First Search (DFS)",
+      "moduleId": "fsd_c2_m7"
+    },
+    {
+      "questionID": "fsd_c2_m7_mcq_03",
+      "type": "mcq",
+      "question": "Which graph traversal algorithm explores neighbor nodes first, before moving to the next level neighbors (level by level)?",
+      "options": [
+        "Depth-First Search (DFS)",
+        "Topological Sort",
+        "Breadth-First Search (BFS)",
+        "Prim's Algorithm"
+      ],
+      "value": "Breadth-First Search (BFS)",
+      "moduleId": "fsd_c2_m7"
+    },
+    {
+      "questionID": "fsd_c2_m7_mcq_04",
+      "type": "mcq",
+      "question": "Finding the shortest path in an unweighted graph can be solved efficiently using:",
+      "options": [
+        "Depth-First Search (DFS)",
+        "Breadth-First Search (BFS)",
+        "A simple loop",
+        "Topological Sort"
+      ],
+      "value": "Breadth-First Search (BFS)",
+      "moduleId": "fsd_c2_m7"
+    },
+    {
+      "questionID": "fsd_c3_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is the primary role of HTML (HyperText Markup Language) in web development?",
+      "options": [
+        "To style the web page with colors and fonts.",
+        "To define the structure and content of the web page.",
+        "To handle user interactions and dynamic content.",
+        "To manage server-side logic."
+      ],
+      "value": "To define the structure and content of the web page.",
+      "moduleId": "fsd_c3_m1"
+    },
+    {
+      "questionID": "fsd_c3_m1_mcq_02",
+      "type": "mcq",
+      "question": "CSS (Cascading Style Sheets) is used to:",
+      "options": [
+        "Create the main elements like headings and paragraphs.",
+        "Store data on the server.",
+        "Describe how HTML elements are to be displayed on screen.",
+        "Handle form submissions."
+      ],
+      "value": "Describe how HTML elements are to be displayed on screen.",
+      "moduleId": "fsd_c3_m1"
+    },
+    {
+      "questionID": "fsd_c3_m1_mcq_03",
+      "type": "mcq",
+      "question": "What is the main advantage of using a CSS framework like Bootstrap?",
+      "options": [
+        "It replaces the need for HTML.",
+        "It provides pre-built components and a responsive grid system to speed up development.",
+        "It is a server-side programming language.",
+        "It is the only way to make websites secure."
+      ],
+      "value": "It provides pre-built components and a responsive grid system to speed up development.",
+      "moduleId": "fsd_c3_m1"
+    },
+    {
+      "questionID": "fsd_c3_m1_mcq_04",
+      "type": "mcq",
+      "question": "In Bootstrap's grid system, a row is typically divided into how many columns?",
+      "options": ["10", "16", "8", "12"],
+      "value": "12",
+      "moduleId": "fsd_c3_m1"
+    },
+    {
+      "questionID": "fsd_c3_m2_mcq_01",
+      "type": "mcq",
+      "question": "What is Node.js?",
+      "options": [
+        "A frontend JavaScript framework.",
+        "A JavaScript runtime environment that executes JavaScript code outside a web browser.",
+        "A database management system.",
+        "A text editor for JavaScript."
+      ],
+      "value": "A JavaScript runtime environment that executes JavaScript code outside a web browser.",
+      "moduleId": "fsd_c3_m2"
+    },
+    {
+      "questionID": "fsd_c3_m2_mcq_02",
+      "type": "mcq",
+      "question": "In modern JavaScript, which keyword is used to declare a variable that cannot be reassigned?",
+      "options": ["var", "let", "const", "static"],
+      "value": "const",
+      "moduleId": "fsd_c3_m2"
+    },
+    {
+      "questionID": "fsd_c3_m2_mcq_03",
+      "type": "mcq",
+      "question": "NPM (Node Package Manager) is used to:",
+      "options": [
+        "Run JavaScript code in the browser.",
+        "Manage and install third-party libraries (packages) for a Node.js project.",
+        "Define the HTML structure of a web page.",
+        "Style web pages with CSS."
+      ],
+      "value": "Manage and install third-party libraries (packages) for a Node.js project.",
+      "moduleId": "fsd_c3_m2"
+    },
+    {
+      "questionID": "fsd_c3_m2_mcq_04",
+      "type": "mcq",
+      "question": "Which of the following is NOT a primitive data type in JavaScript?",
+      "options": ["String", "Number", "Boolean", "Array"],
+      "value": "Array",
+      "moduleId": "fsd_c3_m2"
+    },
+    {
+      "questionID": "fsd_c3_m3_mcq_01",
+      "type": "mcq",
+      "question": "In JavaScript, what is a 'Promise'?",
+      "options": [
+        "A guarantee that a function will not have any errors.",
+        "An object representing the eventual completion (or failure) of an asynchronous operation.",
+        "A variable that can only be assigned once.",
+        "A function that is passed as an argument to another function."
+      ],
+      "value": "An object representing the eventual completion (or failure) of an asynchronous operation.",
+      "moduleId": "fsd_c3_m3"
+    },
+    {
+      "questionID": "fsd_c3_m3_mcq_02",
+      "type": "mcq",
+      "question": "The `async/await` syntax in JavaScript is primarily used to:",
+      "options": [
+        "Define object classes.",
+        "Work with asynchronous code in a more synchronous-looking and readable way.",
+        "Create loops and iterations.",
+        "Declare global variables."
+      ],
+      "value": "Work with asynchronous code in a more synchronous-looking and readable way.",
+      "moduleId": "fsd_c3_m3"
+    },
+    {
+      "questionID": "fsd_c3_m3_mcq_03",
+      "type": "mcq",
+      "question": "What is a 'closure' in JavaScript?",
+      "options": [
+        "The final 'else' block in a long if-else-if chain.",
+        "A function that has access to its outer function's scope, even after the outer function has returned.",
+        "A special type of object that cannot be modified.",
+        "A way to stop a script from executing."
+      ],
+      "value": "A function that has access to its outer function's scope, even after the outer function has returned.",
+      "moduleId": "fsd_c3_m3"
+    },
+    {
+      "questionID": "fsd_c3_m3_mcq_04",
+      "type": "mcq",
+      "question": "Which of the following is a feature introduced in ES6 (ECMAScript 2015)?",
+      "options": [
+        "The `var` keyword.",
+        "The `for` loop.",
+        "Arrow Functions (`=>`).",
+        "The `alert()` function."
+      ],
+      "value": "Arrow Functions (`=>`).",
+      "moduleId": "fsd_c3_m3"
+    },
+    {
+      "questionID": "fsd_c3_m4_mcq_01",
+      "type": "mcq",
+      "question": "What is JSX in the context of React?",
+      "options": [
+        "A new programming language that replaces JavaScript.",
+        "A syntax extension for JavaScript that looks similar to HTML.",
+        "A state management library for React.",
+        "A testing framework for React components."
+      ],
+      "value": "A syntax extension for JavaScript that looks similar to HTML.",
+      "moduleId": "fsd_c3_m4"
+    },
+    {
+      "questionID": "fsd_c3_m4_mcq_02",
+      "type": "mcq",
+      "question": "The fundamental building blocks of React applications are called:",
+      "options": ["Functions", "Objects", "Components", "Variables"],
+      "value": "Components",
+      "moduleId": "fsd_c3_m4"
+    },
+    {
+      "questionID": "fsd_c3_m4_mcq_03",
+      "type": "mcq",
+      "question": "In a React component, what is used to handle data that changes over time and affects what is rendered?",
+      "options": ["Props", "State", "Methods", "JSX"],
+      "value": "State",
+      "moduleId": "fsd_c3_m4"
+    },
+    {
+      "questionID": "fsd_c3_m4_mcq_04",
+      "type": "mcq",
+      "question": "How is data passed from a parent component to a child component in React?",
+      "options": [
+        "Through state",
+        "Through props",
+        "Through global variables",
+        "Through event listeners"
+      ],
+      "value": "Through props",
+      "moduleId": "fsd_c3_m4"
+    },
+    {
+      "questionID": "fsd_c3_m5_mcq_01",
+      "type": "mcq",
+      "question": "What is 'Prompt Engineering' in the context of Generative AI?",
+      "options": [
+        "A type of software engineering for building AI models.",
+        "The process of designing and refining inputs (prompts) to get desired outputs from an AI model.",
+        "A low-code development platform.",
+        "A method for debugging frontend code."
+      ],
+      "value": "The process of designing and refining inputs (prompts) to get desired outputs from an AI model.",
+      "moduleId": "fsd_c3_m5"
+    },
+    {
+      "questionID": "fsd_c3_m5_mcq_02",
+      "type": "mcq",
+      "question": "Which tool is an AI-powered code completion tool developed by GitHub and OpenAI?",
+      "options": ["ChatGPT", "Tabnine", "GitHub Copilot", "Bloop AI"],
+      "value": "GitHub Copilot",
+      "moduleId": "fsd_c3_m5"
+    },
+    {
+      "questionID": "fsd_c3_m5_mcq_03",
+      "type": "mcq",
+      "question": "One of the primary benefits of using GenAI tools for frontend development is:",
+      "options": [
+        "Completely eliminating the need for developers.",
+        "Accelerating development through automatic code generation and translation.",
+        "Making the website run faster on all devices.",
+        "Replacing the need for HTML and CSS."
+      ],
+      "value": "Accelerating development through automatic code generation and translation.",
+      "moduleId": "fsd_c3_m5"
+    },
+    {
+      "questionID": "fsd_c3_m5_mcq_04",
+      "type": "mcq",
+      "question": "The term 'low-code' refers to an approach that:",
+      "options": [
+        "Uses only low-level programming languages like Assembly.",
+        "Requires minimal hand-coding to build applications, often using visual interfaces.",
+        "Results in code that has poor performance.",
+        "Is exclusively for building backend systems."
+      ],
+      "value": "Requires minimal hand-coding to build applications, often using visual interfaces.",
+      "moduleId": "fsd_c3_m5"
+    },
+    {
+      "questionID": "fsd_c4_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is Express.js?",
+      "options": [
+        "A standalone database.",
+        "A frontend JavaScript library.",
+        "A minimal and flexible Node.js web application framework.",
+        "A programming language."
+      ],
+      "value": "A minimal and flexible Node.js web application framework.",
+      "moduleId": "fsd_c4_m1"
+    },
+    {
+      "questionID": "fsd_c4_m1_mcq_02",
+      "type": "mcq",
+      "question": "In Express.js, what is 'middleware'?",
+      "options": [
+        "The final response sent to the client.",
+        "Functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle.",
+        "A way to define the database schema.",
+        "The template engine for rendering views."
+      ],
+      "value": "Functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle.",
+      "moduleId": "fsd_c4_m1"
+    },
+    {
+      "questionID": "fsd_c4_m1_mcq_03",
+      "type": "mcq",
+      "question": "How do you define a route that handles a GET request to the '/users' endpoint in Express?",
+      "options": [
+        "app.handle('/users', ...)",
+        "app.post('/users', ...)",
+        "app.get('/users', ...)",
+        "app.route.get('/users', ...)"
+      ],
+      "value": "app.get('/users', ...)",
+      "moduleId": "fsd_c4_m1"
+    },
+    {
+      "questionID": "fsd_c4_m1_mcq_04",
+      "type": "mcq",
+      "question": "Express.js is built on top of which technology?",
+      "options": ["Python", "React.js", "Java", "Node.js"],
+      "value": "Node.js",
+      "moduleId": "fsd_c4_m1"
+    },
+    {
+      "questionID": "fsd_c4_m2_mcq_01",
+      "type": "mcq",
+      "question": "MongoDB is what type of database?",
+      "options": [
+        "Relational (SQL)",
+        "In-memory",
+        "Graph",
+        "NoSQL (Document-oriented)"
+      ],
+      "value": "NoSQL (Document-oriented)",
+      "moduleId": "fsd_c4_m2"
+    },
+    {
+      "questionID": "fsd_c4_m2_mcq_02",
+      "type": "mcq",
+      "question": "Data in MongoDB is stored in a format similar to JSON, called:",
+      "options": ["BSON (Binary JSON)", "XML", "YAML", "TSV"],
+      "value": "BSON (Binary JSON)",
+      "moduleId": "fsd_c4_m2"
+    },
+    {
+      "questionID": "fsd_c4_m2_mcq_03",
+      "type": "mcq",
+      "question": "In MongoDB, a group of documents is stored in a:",
+      "options": ["Table", "Row", "Collection", "Index"],
+      "value": "Collection",
+      "moduleId": "fsd_c4_m2"
+    },
+    {
+      "questionID": "fsd_c4_m2_mcq_04",
+      "type": "mcq",
+      "question": "A key advantage of NoSQL databases like MongoDB is their:",
+      "options": [
+        "Strict enforcement of schemas.",
+        "Support for complex JOIN operations.",
+        "Flexible data models and horizontal scalability.",
+        "Reliance on the SQL query language."
+      ],
+      "value": "Flexible data models and horizontal scalability.",
+      "moduleId": "fsd_c4_m2"
+    },
+    {
+      "questionID": "fsd_c4_m3_mcq_01",
+      "type": "mcq",
+      "question": "What does REST stand for?",
+      "options": [
+        "Representational State Transfer",
+        "Remote Execution Service Task",
+        "Resourceful State Transaction",
+        "Relational Entity Structure Template"
+      ],
+      "value": "Representational State Transfer",
+      "moduleId": "fsd_c4_m3"
+    },
+    {
+      "questionID": "fsd_c4_m3_mcq_02",
+      "type": "mcq",
+      "question": "Which HTTP method is idempotent and used to retrieve data from a server?",
+      "options": ["POST", "GET", "PATCH", "DELETE"],
+      "value": "GET",
+      "moduleId": "fsd_c4_m3"
+    },
+    {
+      "questionID": "fsd_c4_m3_mcq_03",
+      "type": "mcq",
+      "question": "A core characteristic of a RESTful API is that it is 'stateless'. What does this mean?",
+      "options": [
+        "The API can only return static, unchanging data.",
+        "The server does not store any client context between requests; each request must contain all necessary information.",
+        "The API does not support any form of data storage.",
+        "The client and server must maintain a constant, open connection."
+      ],
+      "value": "The server does not store any client context between requests; each request must contain all necessary information.",
+      "moduleId": "fsd_c4_m3"
+    },
+    {
+      "questionID": "fsd_c4_m3_mcq_04",
+      "type": "mcq",
+      "question": "Which HTTP method is typically used to create a new resource on the server?",
+      "options": ["GET", "PUT", "POST", "HEAD"],
+      "value": "POST",
+      "moduleId": "fsd_c4_m3"
+    },
+    {
+      "questionID": "fsd_c4_m4_mcq_01",
+      "type": "mcq",
+      "question": "What is a common method for implementing stateless authentication in a modern web API?",
+      "options": [
+        "Storing user sessions on the server's memory.",
+        "Using cookies tied to a specific server.",
+        "Using JSON Web Tokens (JWT).",
+        "Requiring the user to log in with every single request."
+      ],
+      "value": "Using JSON Web Tokens (JWT).",
+      "moduleId": "fsd_c4_m4"
+    },
+    {
+      "questionID": "fsd_c4_m4_mcq_02",
+      "type": "mcq",
+      "question": "In an Express.js application, a dedicated error-handling middleware function is distinguished by having how many arguments?",
+      "options": [
+        "Two (req, res)",
+        "Three (req, res, next)",
+        "Four (err, req, res, next)",
+        "One (err)"
+      ],
+      "value": "Four (err, req, res, next)",
+      "moduleId": "fsd_c4_m4"
+    },
+    {
+      "questionID": "fsd_c4_m4_mcq_03",
+      "type": "mcq",
+      "question": "Which HTTP status code indicates that a resource was not found?",
+      "options": [
+        "200 OK",
+        "500 Internal Server Error",
+        "404 Not Found",
+        "403 Forbidden"
+      ],
+      "value": "404 Not Found",
+      "moduleId": "fsd_c4_m4"
+    },
+    {
+      "questionID": "fsd_c4_m4_mcq_04",
+      "type": "mcq",
+      "question": "What is the primary purpose of 'salting' passwords before hashing them?",
+      "options": [
+        "To make the hash shorter.",
+        "To make the password easier to remember.",
+        "To ensure that identical passwords hash to different values, preventing rainbow table attacks.",
+        "To encrypt the password twice."
+      ],
+      "value": "To ensure that identical passwords hash to different values, preventing rainbow table attacks.",
+      "moduleId": "fsd_c4_m4"
+    },
+    {
+      "questionID": "fsd_c5_m1_mcq_01",
+      "type": "mcq",
+      "question": "How can Generative AI assist in backend development?",
+      "options": [
+        "By automatically generating boilerplate code for APIs.",
+        "By suggesting translations of code from one language to another (e.g., Python to Java).",
+        "By providing code reviews and suggesting improvements.",
+        "All of the above."
+      ],
+      "value": "All of the above.",
+      "moduleId": "fsd_c5_m1"
+    },
+    {
+      "questionID": "fsd_c5_m1_mcq_02",
+      "type": "mcq",
+      "question": "What is a major benefit of using GenAI for security analysis on backend code?",
+      "options": [
+        "It can replace all human security experts.",
+        "It can analyze code to predict and identify potential vulnerabilities before they are deployed.",
+        "It guarantees the code will be 100% bug-free.",
+        "It automatically deploys the code to the server."
+      ],
+      "value": "It can analyze code to predict and identify potential vulnerabilities before they are deployed.",
+      "moduleId": "fsd_c5_m1"
+    },
+    {
+      "questionID": "fsd_c5_m1_mcq_03",
+      "type": "mcq",
+      "question": "Using an AI tool to generate a Dockerfile for a backend service is an example of:",
+      "options": [
+        "Frontend development.",
+        "AI-assisted code generation for infrastructure.",
+        "Database design.",
+        "User interface design."
+      ],
+      "value": "AI-assisted code generation for infrastructure.",
+      "moduleId": "fsd_c5_m1"
+    },
+    {
+      "questionID": "fsd_c5_m1_mcq_04",
+      "type": "mcq",
+      "question": "What does 'low-code backend development' powered by AI aim to do?",
+      "options": [
+        "Increase the amount of code a developer needs to write.",
+        "Make backend development more complex and time-consuming.",
+        "Reduce the amount of manual coding required by automating the creation of services, APIs, and logic.",
+        "Focus only on frontend user interfaces."
+      ],
+      "value": "Reduce the amount of manual coding required by automating the creation of services, APIs, and logic.",
+      "moduleId": "fsd_c5_m1"
+    },
+    {
+      "questionID": "fsd_c6_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is 'static code analysis'?",
+      "options": [
+        "Analyzing code while it is running.",
+        "Analyzing source code for potential errors and vulnerabilities without executing it.",
+        "Testing the user interface of an application.",
+        "Measuring the performance of a database."
+      ],
+      "value": "Analyzing source code for potential errors and vulnerabilities without executing it.",
+      "moduleId": "fsd_c6_m1"
+    },
+    {
+      "questionID": "fsd_c6_m1_mcq_02",
+      "type": "mcq",
+      "question": "How can GenAI tools increase a developer's productivity?",
+      "options": [
+        "By automating the writing of documentation and comments.",
+        "By generating unit tests for existing code.",
+        "By providing instant suggestions and completing code blocks.",
+        "All of the above."
+      ],
+      "value": "All of the above.",
+      "moduleId": "fsd_c6_m1"
+    },
+    {
+      "questionID": "fsd_c6_m1_mcq_03",
+      "type": "mcq",
+      "question": "Using a GenAI tool to refactor a complex function into a cleaner, more efficient version is an example of AI-assisted:",
+      "options": [
+        "Code optimization",
+        "Code deletion",
+        "Deployment",
+        "Database migration"
+      ],
+      "value": "Code optimization",
+      "moduleId": "fsd_c6_m1"
+    },
+    {
+      "questionID": "fsd_c6_m1_mcq_04",
+      "type": "mcq",
+      "question": "The concept of a '10x developer' using AI tools implies that the developer can:",
+      "options": [
+        "Work 10 times longer hours.",
+        "Write code that is 10 times more complex.",
+        "Achieve a significantly higher output and quality of work by leveraging AI.",
+        "Use 10 different programming languages at once."
+      ],
+      "value": "Achieve a significantly higher output and quality of work by leveraging AI.",
+      "moduleId": "fsd_c6_m1"
+    },
+    {
+      "questionID": "fsd_c7_m1_mcq_01",
+      "type": "mcq",
+      "question": "Which of the following is a key characteristic of a 'distributed system'?",
+      "options": [
+        "All components run on a single machine.",
+        "Components are located on different networked computers which communicate and coordinate their actions.",
+        "The entire system is written in a single programming language.",
+        "The system has no user interface."
+      ],
+      "value": "Components are located on different networked computers which communicate and coordinate their actions.",
+      "moduleId": "fsd_c7_m1"
+    },
+    {
+      "questionID": "fsd_c7_m1_mcq_02",
+      "type": "mcq",
+      "question": "In software engineering, what is a 'design pattern'?",
+      "options": [
+        "A strict rule for how to write code.",
+        "A general, reusable solution to a commonly occurring problem within a given context.",
+        "A specific algorithm like Merge Sort.",
+        "A visual design for a user interface."
+      ],
+      "value": "A general, reusable solution to a commonly occurring problem within a given context.",
+      "moduleId": "fsd_c7_m1"
+    },
+    {
+      "questionID": "fsd_c7_m1_mcq_03",
+      "type": "mcq",
+      "question": "The 'Singleton' design pattern ensures that a class:",
+      "options": [
+        "Can be inherited by many other classes.",
+        "Has only one instance and provides a global point of access to it.",
+        "Can have multiple, independent instances.",
+        "Is used for a single, specific task."
+      ],
+      "value": "Has only one instance and provides a global point of access to it.",
+      "moduleId": "fsd_c7_m1"
+    },
+    {
+      "questionID": "fsd_c7_m1_mcq_04",
+      "type": "mcq",
+      "question": "What is a major challenge in distributed systems design?",
+      "options": [
+        "Ensuring code is well-commented.",
+        "Managing network latency and potential failures of components (fault tolerance).",
+        "Choosing the right variable names.",
+        "Compiling the code."
+      ],
+      "value": "Managing network latency and potential failures of components (fault tolerance).",
+      "moduleId": "fsd_c7_m1"
+    },
+    {
+      "questionID": "fsd_c7_m2_mcq_01",
+      "type": "mcq",
+      "question": "'Scalability' in system design refers to the ability of a system to:",
+      "options": [
+        "Remain secure from all attacks.",
+        "Handle a growing amount of work by adding resources to the system.",
+        "Run on any operating system.",
+        "Recover quickly from a failure."
+      ],
+      "value": "Handle a growing amount of work by adding resources to the system.",
+      "moduleId": "fsd_c7_m2"
+    },
+    {
+      "questionID": "fsd_c7_m2_mcq_02",
+      "type": "mcq",
+      "question": "'Reliability' is a measure of a system's ability to:",
+      "options": [
+        "Perform correctly and consistently over time.",
+        "Handle a large number of users.",
+        "Be easy to use.",
+        "Be developed quickly."
+      ],
+      "value": "Perform correctly and consistently over time.",
+      "moduleId": "fsd_c7_m2"
+    },
+    {
+      "questionID": "fsd_c7_m2_mcq_03",
+      "type": "mcq",
+      "question": "What is the primary function of a 'Load Balancer' in a web architecture?",
+      "options": [
+        "To store user data.",
+        "To run the application logic.",
+        "To distribute incoming network traffic across multiple servers.",
+        "To encrypt communication between the client and server."
+      ],
+      "value": "To distribute incoming network traffic across multiple servers.",
+      "moduleId": "fsd_c7_m2"
+    },
+    {
+      "questionID": "fsd_c7_m2_mcq_04",
+      "type": "mcq",
+      "question": "In system design, what does 'performance' typically measure?",
+      "options": [
+        "The cost of the servers.",
+        "The number of developers on the team.",
+        "The response time (latency) and throughput of the system.",
+        "The physical size of the data center."
+      ],
+      "value": "The response time (latency) and throughput of the system.",
+      "moduleId": "fsd_c7_m2"
+    },
+    {
+      "questionID": "fsd_c8_m1_mcq_01",
+      "type": "mcq",
+      "question": "What is the primary purpose of a 'Capstone Project' in a certification program?",
+      "options": [
+        "To be the very first introductory project.",
+        "To be a small, theoretical exercise.",
+        "To serve as a culminating assignment, allowing students to apply their comprehensive skills to a significant, real-world-like project.",
+        "To be an optional, extra-credit assignment."
+      ],
+      "value": "To serve as a culminating assignment, allowing students to apply their comprehensive skills to a significant, real-world-like project.",
+      "moduleId": "fsd_c8_m1"
+    },
+    {
+      "questionID": "fsd_c8_m1_mcq_02",
+      "type": "mcq",
+      "question": "A 'full-stack' application typically includes:",
+      "options": [
+        "Only a frontend user interface.",
+        "Only a backend server and database.",
+        "Both a frontend (client-side) and a backend (server-side) with a database.",
+        "Only a database."
+      ],
+      "value": "Both a frontend (client-side) and a backend (server-side) with a database.",
+      "moduleId": "fsd_c8_m1"
+    },
+    {
+      "questionID": "fsd_c8_m1_mcq_03",
+      "type": "mcq",
+      "question": "Which skill is crucial for successfully completing a full-stack capstone project?",
+      "options": [
+        "Ability to integrate frontend and backend components.",
+        "Database design and management.",
+        "Understanding of API communication.",
+        "All of the above."
+      ],
+      "value": "All of the above.",
+      "moduleId": "fsd_c8_m1"
+    },
+    {
+      "questionID": "fsd_c8_m1_mcq_04",
+      "type": "mcq",
+      "question": "Why is a capstone project important for a job portfolio?",
+      "options": [
+        "It is not important for a portfolio.",
+        "It demonstrates practical, hands-on ability to build a complete application, which is highly valued by employers.",
+        "It only shows theoretical knowledge.",
+        "It is only useful for academic purposes."
+      ],
+      "value": "It demonstrates practical, hands-on ability to build a complete application, which is highly valued by employers.",
+      "moduleId": "fsd_c8_m1"
+    }
+  ]
+}
