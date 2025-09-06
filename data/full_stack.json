@@ -1,0 +1,273 @@
+{
+  "course_id": "upgrad_fsd_ai_01",
+  "course_name": "Executive Post-Graduate Certification in AI-Powered Full Stack Development",
+  "provider": "upGrad and IIIT Bangalore",
+  "description": "This program offers a combination of core Computer Science concepts and hands-on application development experience, designed for software developers who need to think and implement end-to-end solutions.48]",
+  "duration_months": 9.5,
+  "eligibility": "Bachelor's Degree or final year students with 50% or equivalent marks. Prior coding knowledge is preferred.",
+  "tools_covered": [
+    "Java",
+    "DSA",
+    "Git",
+    "OOPS",
+    "JUnit",
+    "Python",
+    "SQL",
+    "Apache Hadoop",
+    "Spark",
+    "Kafka",
+    "Sqoop",
+    "Hive",
+    "Airflow",
+    "Amazon Redshift",
+    "Amazon Glue",
+    "ElasticSearch",
+    "Kibana",
+    "Tableau"
+  ],
+  "projects": [
+    {
+      "title": "Culinary Compass",
+      "description": "An application to discover nearby restaurants, mastering software engineering fundamentals like UML, JUnit, Mockito testing, and Test Driven Development. 226, 228]"
+    },
+    {
+      "title": "AutoMarket Hub",
+      "description": "A dynamic platform for buying and reselling cars, offering hands-on opportunity to apply HTML, CSS, and Bootstrap skills. 234]"
+    },
+    {
+      "title": "PhoneSphere Explorer",
+      "description": "A user-friendly frontend application to add and explore mobile phones, honing skills in DOM manipulation and creating a responsive website. 240]"
+    },
+    {
+      "title": "Hotel Room Booking",
+      "description": "A practice project to create a website for booking hotel rooms, covering frontend features like HTML, CSS, Bootstrap, JavaScript, and AJAX. 246]"
+    },
+    {
+      "title": "Game Library",
+      "description": "A small web application on React to host 5 different games, covering basic concepts of React.js like components, hooks, props, and context. 252]"
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "fsd_c1_m1",
+      "module_title": "Basics of Java",
+      "description": "Learn the foundational elements of Java programming, including syntax, data types, and control structures.",
+      "duration": "Shared within 1 month",
+      "tags": ["java", "syntax", "data types", "control structures"]
+    },
+    {
+      "module_id": "fsd_c1_m2",
+      "module_title": "Java: An Object-Oriented Language",
+      "description": "Explore Java's powerful object-oriented paradigm, mastering classes, objects, inheritance, and polymorphism.",
+      "duration": "Shared within 1 month",
+      "tags": [
+        "java",
+        "oop",
+        "classes",
+        "objects",
+        "inheritance",
+        "polymorphism"
+      ]
+    },
+    {
+      "module_id": "fsd_c1_m3",
+      "module_title": "Advanced Java Concepts",
+      "description": "Dive deeper into Java with topics like multithreading, file handling, exceptions, and lambda expressions.",
+      "duration": "Shared within 1 month",
+      "tags": [
+        "java",
+        "multithreading",
+        "file handling",
+        "exceptions",
+        "lambda"
+      ]
+    },
+    {
+      "module_id": "fsd_c1_m4",
+      "module_title": "Object Oriented Design",
+      "description": "Learn about software design, UML diagrams, testing and version control concepts.",
+      "duration": "Shared within 1 month",
+      "tags": ["ood", "uml", "software design", "testing", "version control"]
+    },
+    {
+      "module_id": "fsd_c2_m1",
+      "module_title": "Algorithms Analysis and Bit Manipulation",
+      "description": "Understand algorithm efficiency and learn techniques for bit manipulation.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "algorithms", "bit manipulation", "time complexity"]
+    },
+    {
+      "module_id": "fsd_c2_m2",
+      "module_title": "Arrays and Linked Lists",
+      "description": "Master data structures like arrays and linked lists, and gain proficiency in operations and manipulation.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "arrays", "linked lists"]
+    },
+    {
+      "module_id": "fsd_c2_m3",
+      "module_title": "Stacks and Queues",
+      "description": "Explore essential data structures - stacks and queues and their applications in algorithmic problem-solving.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "stacks", "queues"]
+    },
+    {
+      "module_id": "fsd_c2_m4",
+      "module_title": "Searching and Sorting",
+      "description": "Learn various searching and sorting algorithms and analyze their time complexity.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "searching", "sorting", "algorithms"]
+    },
+    {
+      "module_id": "fsd_c2_m5",
+      "module_title": "Greedy Algorithms",
+      "description": "Understand the Greedy algorithmic paradigm and apply it to solve optimization problems.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "greedy algorithms", "optimization"]
+    },
+    {
+      "module_id": "fsd_c2_m6",
+      "module_title": "Dynamic Programming",
+      "description": "Master the art of dynamic programming for solving complex problems by breaking them down into simpler subproblems.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "dynamic programming"]
+    },
+    {
+      "module_id": "fsd_c2_m7",
+      "module_title": "Graph and Graph Algorithms",
+      "description": "Explore graphs, their representations, and algorithms like DFS and BFS for traversal and pathfinding.",
+      "duration": "Shared within 3 months",
+      "tags": ["dsa", "graphs", "dfs", "bfs", "pathfinding"]
+    },
+    {
+      "module_id": "fsd_c3_m1",
+      "module_title": "HTML, CSS and Bootstrap",
+      "description": "Learn the fundamental building blocks of web development - HTML and CSS, and enhance your skills with Bootstrap for responsive design.",
+      "duration": "Shared within 2.5 months",
+      "tags": ["frontend", "html", "css", "bootstrap", "responsive design"]
+    },
+    {
+      "module_id": "fsd_c3_m2",
+      "module_title": "Fundamentals of Node JS and JavaScript",
+      "description": "Gain proficiency in Node.js for server-side JavaScript development and understand core JavaScript concepts.",
+      "duration": "Shared within 2.5 months",
+      "tags": ["frontend", "javascript", "node.js", "server-side"]
+    },
+    {
+      "module_id": "fsd_c3_m3",
+      "module_title": "Advanced JavaScript Concepts",
+      "description": "Deepen your understanding of JavaScript with topics like ES6, closures, promises, async/await, and modules.",
+      "duration": "Shared within 2.5 months",
+      "tags": ["frontend", "javascript", "es6", "closures", "promises", "async"]
+    },
+    {
+      "module_id": "fsd_c3_m4",
+      "module_title": "Frontend Development with React JS",
+      "description": "Dive into building dynamic and interactive user interfaces with the powerful React JS library.",
+      "duration": "Shared within 2.5 months",
+      "tags": ["frontend", "react.js", "ui", "interactive"]
+    },
+    {
+      "module_id": "fsd_c3_m5",
+      "module_title": "Create AI-Powered Low-Code Frontend",
+      "description": "Understand prompt engineering and learn code generation, translation, and reviews using GenAI tools like ChatGPT, Github Copilot, Phind AI, Bloop Al, Tabnine and more for frontend.",
+      "duration": "Shared within 2.5 months",
+      "tags": [
+        "frontend",
+        "ai",
+        "genai",
+        "low-code",
+        "prompt engineering",
+        "chatgpt",
+        "github copilot"
+      ]
+    },
+    {
+      "module_id": "fsd_c4_m1",
+      "module_title": "Introduction to Express JS",
+      "description": "Explore the basics of Express.js to build robust and scalable backend applications.",
+      "duration": "Shared within 1 month",
+      "tags": ["backend", "express.js", "node.js", "api"]
+    },
+    {
+      "module_id": "fsd_c4_m2",
+      "module_title": "MongoDB and Database Integration",
+      "description": "Learn to work with MongoDB, a NoSQL database, and integrate it seamlessly into your applications.",
+      "duration": "Shared within 1 month",
+      "tags": ["backend", "database", "mongodb", "nosql"]
+    },
+    {
+      "module_id": "fsd_c4_m3",
+      "module_title": "Building RESTful APIs",
+      "description": "Design and develop RESTful APIs to enable smooth communication between the frontend and backend.",
+      "duration": "Shared within 1 month",
+      "tags": ["backend", "api", "rest", "restful"]
+    },
+    {
+      "module_id": "fsd_c4_m4",
+      "module_title": "Authentication and Error Handling",
+      "description": "Implement secure user authentication and handle errors effectively to ensure a seamless user experience.",
+      "duration": "Shared within 1 month",
+      "tags": [
+        "backend",
+        "security",
+        "authentication",
+        "error handling",
+        "testing"
+      ]
+    },
+    {
+      "module_id": "fsd_c5_m1",
+      "module_title": "Create AI-Enabled Low-Code Backend",
+      "description": "Learn to use GenAI for backend code generation, translation, and reviews. Also, learn how GenAI can analyze code to predict errors and implement AI-driven security measures.",
+      "duration": "Shared within 1 month with Backend Dev",
+      "tags": [
+        "backend",
+        "ai",
+        "genai",
+        "low-code",
+        "code generation",
+        "security"
+      ]
+    },
+    {
+      "module_id": "fsd_c6_m1",
+      "module_title": "Become 10x AI-powered Developer",
+      "description": "Learn GenAI-powered static code analysis, how to improve testing and integration, design seamless applications, and optimize them using GenAI tools.",
+      "duration": "1 month",
+      "tags": [
+        "ai",
+        "genai",
+        "developer productivity",
+        "code analysis",
+        "testing",
+        "optimization"
+      ]
+    },
+    {
+      "module_id": "fsd_c7_m1",
+      "module_title": "Distributed Systems and Design Patterns",
+      "description": "Understand the principles of distributed systems and apply design patterns to build scalable and resilient applications.",
+      "duration": "Shared within 1 month",
+      "tags": [
+        "system design",
+        "distributed systems",
+        "design patterns",
+        "scalability"
+      ]
+    },
+    {
+      "module_id": "fsd_c7_m2",
+      "module_title": "System Design",
+      "description": "Learn the art of designing complex systems, focusing on scalability, reliability, and performance.",
+      "duration": "Shared within 1 month",
+      "tags": ["system design", "scalability", "reliability", "performance"]
+    },
+    {
+      "module_id": "fsd_c8_m1",
+      "module_title": "Capstone Project",
+      "description": "In the Capstone Project, students apply their knowledge and skills to develop a comprehensive full-stack application.",
+      "duration": "1 month",
+      "tags": ["capstone", "full-stack", "project"]
+    }
+  ]
+}

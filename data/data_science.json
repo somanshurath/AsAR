@@ -1,0 +1,226 @@
+{
+  "course_id": "upgrad_ds_ai_pwc_01",
+  "course_name": "Professional Certificate Program in Data Science and AI",
+  "provider": "upGrad and PwC Academy",
+  "description": "This program is designed for individuals seeking to master Data Analysis, Statistical Modeling, and Machine Learning, covering essential tools and methods from data wrangling with Excel and SQL to Advanced Machine Learning and Neural Networks.",
+  "duration_weeks": 24,
+  "eligibility": "Passion for Digital Marketing & a desire to learn, with basic English communication.",
+  "tools_covered": [
+    "MS-Excel",
+    "SQL",
+    "MySQL",
+    "Python",
+    "Jupyter",
+    "Numpy",
+    "Pandas",
+    "Matplotlib",
+    "Seaborn",
+    "Tableau",
+    "Power BI",
+    "Scikit-Learn",
+    "TensorFlow",
+    "Keras",
+    "OpenAI",
+    "Statsmodels",
+    "Plotly"
+  ],
+  "projects": [
+    {
+      "title": "Superstore Sales Project",
+      "description": "Analyze superstore sales data using Excel to generate insights."
+    },
+    {
+      "title": "RSVP Case Study",
+      "description": "Analyze movie data using MySQL to provide insights and recommendations for RSVP Movies."
+    },
+    {
+      "title": "Credit Risk Analysis",
+      "description": "Analyze loan application data using EDA in Python to identify factors influencing loan default risk."
+    },
+    {
+      "title": "IPL Visualisation Project",
+      "description": "Build a Tableau dashboard of IPL statistics over the years to create an infographic."
+    },
+    {
+      "title": "Bike Sharing Demand Prediction",
+      "description": "Build a regression model to predict the demand for shared bikes for BoomBikes."
+    },
+    {
+      "title": "Lead Scoring Classification",
+      "description": "Build a logistic regression model to assign lead scores and identify potential leads for X Education."
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "ds_c1_m1",
+      "module_title": "MS-Excel: Business Problem Solving",
+      "description": "Learn the CRISP-DM framework, logical thinking, and translating business objectives into data requirements.",
+      "duration": "Shared within 3 weeks",
+      "tags": ["excel", "crisp-dm", "business analysis"]
+    },
+    {
+      "module_id": "ds_c1_m2",
+      "module_title": "MS-Excel: Data Analysis and Visualization",
+      "description": "Learn IF statements, nested IFs, descriptive statistics, charts, dashboard creation, Pivot tables, VLOOKUP, and HLOOKUP.",
+      "duration": "Shared within 3 weeks",
+      "tags": [
+        "excel",
+        "data analysis",
+        "vlookup",
+        "pivot tables",
+        "dashboards",
+        "visualization"
+      ]
+    },
+    {
+      "module_id": "ds_c2_m1",
+      "module_title": "SQL Fundamentals and Database Design",
+      "description": "Introduction to SQL, database structure, ERD, data modeling, and hands-on database creation in MySQL Workbench.",
+      "duration": "Shared within 4 weeks",
+      "tags": ["sql", "database design", "erd", "mysql"]
+    },
+    {
+      "module_id": "ds_c2_m2",
+      "module_title": "SQL: Querying and Data Manipulation",
+      "description": "Learn DDL & DML statements, aggregate functions, ordering results, and using the HAVING clause.",
+      "duration": "Shared within 4 weeks",
+      "tags": ["sql", "ddl", "dml", "aggregate functions", "group by", "having"]
+    },
+    {
+      "module_id": "ds_c2_m3",
+      "module_title": "Advanced SQL and Data Analysis",
+      "description": "Learn joins, set operations, views, string and date-time functions, regular expressions, nested queries, and window functions.",
+      "duration": "Shared within 4 weeks",
+      "tags": [
+        "sql",
+        "joins",
+        "views",
+        "window functions",
+        "query optimization"
+      ]
+    },
+    {
+      "module_id": "ds_c3_m1",
+      "module_title": "Getting Started with Python",
+      "description": "Overview of Python, IDE setup (Jupyter), basic syntax, variables, expressions, and data types (lists, tuples, dictionaries, sets).",
+      "duration": "Shared within 6 weeks",
+      "tags": ["python", "jupyter", "data types", "data structures"]
+    },
+    {
+      "module_id": "ds_c3_m2",
+      "module_title": "Functional Programming and OOP in Python",
+      "description": "Covering functions, lambda, map, filter, reduce, file handling, exception handling, and core OOP concepts like classes, objects, inheritance, and polymorphism.",
+      "duration": "Shared within 6 weeks",
+      "tags": [
+        "python",
+        "functional programming",
+        "oop",
+        "classes",
+        "inheritance",
+        "file handling"
+      ]
+    },
+    {
+      "module_id": "ds_c3_m3",
+      "module_title": "Data Manipulation with Numpy and Pandas",
+      "description": "Introduction to Numpy for numerical operations and Pandas for data manipulation, covering arrays, DataFrames, filtering, sorting, grouping, and handling missing data.",
+      "duration": "Shared within 6 weeks",
+      "tags": ["python", "numpy", "pandas", "data manipulation", "dataframe"]
+    },
+    {
+      "module_id": "ds_c3_m4",
+      "module_title": "Data Visualization and EDA",
+      "description": "Learn data visualization with Matplotlib and Seaborn, and perform Exploratory Data Analysis (EDA) including data cleaning, univariate and bivariate analysis.",
+      "duration": "Shared within 6 weeks",
+      "tags": ["python", "matplotlib", "seaborn", "data visualization", "eda"]
+    },
+    {
+      "module_id": "ds_c4_m1",
+      "module_title": "Data Visualization with Tableau",
+      "description": "Learn to create basic and advanced charts, graphs, and interactive dashboards in Tableau for storytelling with data.",
+      "duration": "Shared within 2 weeks",
+      "tags": ["tableau", "data visualization", "dashboards", "storytelling"]
+    },
+    {
+      "module_id": "ds_c4_m2",
+      "module_title": "Data Analysis and Visualization Using Power BI",
+      "description": "Getting started with Power BI, data acquisition, transformation, creating dynamic reports and dashboards, and publishing reports.",
+      "duration": "Shared within 2 weeks",
+      "tags": ["power bi", "data analysis", "dashboards", "data transformation"]
+    },
+    {
+      "module_id": "ds_c5_m1",
+      "module_title": "Revisiting Statistics",
+      "description": "Covers fundamentals of probability, continuous and conditional probability, hypothesis testing, and core concepts in linear algebra for Machine Learning.",
+      "duration": "Shared within 9 weeks",
+      "tags": [
+        "statistics",
+        "probability",
+        "hypothesis testing",
+        "linear algebra"
+      ]
+    },
+    {
+      "module_id": "ds_c5_m2",
+      "module_title": "Linear Regression",
+      "description": "Learn simple linear regression, best-fit line, gradient descent for optimization, and multiple linear regression, including handling multicollinearity and categorical variables.",
+      "duration": "Shared within 9 weeks",
+      "tags": [
+        "machine learning",
+        "regression",
+        "linear regression",
+        "gradient descent",
+        "sklearn"
+      ]
+    },
+    {
+      "module_id": "ds_c5_m3",
+      "module_title": "Logistic Regression",
+      "description": "Learn model building and evaluation of univariate and multivariate logistic regression models for classification tasks.",
+      "duration": "Shared within 9 weeks",
+      "tags": ["machine learning", "classification", "logistic regression"]
+    },
+    {
+      "module_id": "ds_c5_m4",
+      "module_title": "Tree Models and Clustering",
+      "description": "Introduction to decision trees with hyperparameter tuning, and unsupervised clustering techniques like K-means and hierarchical clustering.",
+      "duration": "Shared within 9 weeks",
+      "tags": [
+        "machine learning",
+        "decision trees",
+        "clustering",
+        "k-means",
+        "unsupervised learning"
+      ]
+    },
+    {
+      "module_id": "ds_c5_m5",
+      "module_title": "Ensemble Learning and PCA",
+      "description": "Introduction to ensemble methods like Bagging, Random Forest, and Boosting for stronger model performance, and Principal Component Analysis (PCA) for dimensionality reduction.",
+      "duration": "Shared within 9 weeks",
+      "tags": [
+        "machine learning",
+        "ensemble learning",
+        "bagging",
+        "random forest",
+        "boosting",
+        "pca",
+        "dimensionality reduction"
+      ]
+    },
+    {
+      "module_id": "ds_c5_m6",
+      "module_title": "Natural Language Processing (NLP) and Neural Networks",
+      "description": "Learn NLP basics like regular expressions, lexical processing (tokenization, stemming), bag-of-words with TF-IDF, and fundamentals of Neural Networks and Deep Learning.",
+      "duration": "Shared within 9 weeks",
+      "tags": [
+        "nlp",
+        "neural networks",
+        "deep learning",
+        "tokenization",
+        "tf-idf",
+        "tensorflow"
+      ]
+    }
+  ]
+}

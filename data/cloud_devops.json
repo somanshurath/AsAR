@@ -1,0 +1,228 @@
+{
+  "course_id": "upgrad_cloud_devops_01",
+  "course_name": "Professional Certificate Program in Cloud Computing and DevOps",
+  "provider": "upGrad",
+  "description": "The learner journey includes foundational courses in Python and Cloud Computing, followed by in-depth modules on AWS, Azure, and Google Cloud Platform, covering databases, networking, security, and DevOps practices like Docker, CI/CD, Kubernetes, and IaC.",
+  "duration_months": 8,
+  "eligibility": "Bachelor's degree with 50%. Prior coding knowledge will be highly beneficial.",
+  "tools_covered": [
+    "Python",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Docker",
+    "Jenkins",
+    "Terraform",
+    "Ansible",
+    "Kubernetes",
+    "Git"
+  ],
+  "projects": [
+    {
+      "title": "Kubernetes-Based Microservices Platform on AWS EKS",
+      "description": "Develop a proof-of-concept for a scalable, resilient microservices architecture using Kubernetes on AWS EKS, deploying stateless and stateful workloads.",
+      "skills": ["VPC", "EKS", "Nodes", "Stateless & Stateful workload"]
+    },
+    {
+      "title": "Scalable Continuous Deployment for High-Traffic E-commerce on Azure",
+      "description": "Ensure seamless scalability and zero downtime for an e-commerce platform during a high-traffic season using a robust continuous delivery and deployment strategy on Azure.",
+      "skills": ["Web Apps", "DevOps", "Azure Monitor"]
+    },
+    {
+      "title": "Enhancing the Scalability of BookMyShow",
+      "description": "Analyze and resolve performance bottlenecks in a ticketing platform to enhance scalability and reliability for high-traffic events.",
+      "skills": ["Cloud Run", "SQL Database"]
+    },
+    {
+      "title": "Multi-Cloud Disaster Recovery for Financial Services",
+      "description": "Implement a disaster recovery and business continuity solution across AWS and Microsoft Azure to build a resilient, geo-redundant infrastructure.",
+      "skills": ["Multi-cloud", "AWS", "Azure", "Disaster Recovery"]
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "cd_c1_m1",
+      "module_title": "Python Fundamentals",
+      "description": "A refresher on Python fundamentals relevant for Cloud and DevOps.",
+      "duration": "Shared within Prep Content",
+      "tags": ["python", "scripting", "devops", "cloud"]
+    },
+    {
+      "module_id": "cd_c1_m2",
+      "module_title": "Fundamentals of Cloud Computing",
+      "description": "Overview of cloud concepts, service types (IaaS, PaaS, SaaS), cloud types (Public, Private, Hybrid), and multi-cloud strategies.",
+      "duration": "Shared within Prep Content",
+      "tags": ["cloud computing", "iaas", "paas", "saas", "hybrid cloud"]
+    },
+    {
+      "module_id": "cd_c2_m1",
+      "module_title": "AWS Fundamentals and Core Services",
+      "description": "Overview of AWS, setting up an account, and introduction to core services like EC2, S3, RDS, VPC, and IAM.",
+      "duration": "Shared within 16 weeks",
+      "tags": ["aws", "ec2", "s3", "rds", "vpc", "iam"]
+    },
+    {
+      "module_id": "cd_c2_m2",
+      "module_title": "AWS Networking and Security",
+      "description": "Learn about VPC for networking, IAM for security, Security Groups, Network ACLs, Auto Scaling, and Load balancing.",
+      "duration": "Shared within 16 weeks",
+      "tags": [
+        "aws",
+        "networking",
+        "security",
+        "vpc",
+        "iam",
+        "auto scaling",
+        "load balancing"
+      ]
+    },
+    {
+      "module_id": "cd_c2_m3",
+      "module_title": "DevOps Basics and Docker",
+      "description": "Understanding DevOps principles, Version Control with Git, and an introduction to Docker for containerization, including its architecture and components.",
+      "duration": "Shared within 16 weeks",
+      "tags": ["devops", "git", "docker", "containerization", "docker compose"]
+    },
+    {
+      "module_id": "cd_c2_m4",
+      "module_title": "CI/CD and Jenkins",
+      "description": "Learn Continuous Integration concepts and set up CI/CD pipelines using Jenkins, integrating with Git and using AWS CodeBuild.",
+      "duration": "Shared within 16 weeks",
+      "tags": ["devops", "ci/cd", "jenkins", "pipelines", "aws codebuild"]
+    },
+    {
+      "module_id": "cd_c2_m5",
+      "module_title": "Infrastructure as Code (IaC) with Terraform",
+      "description": "Introduction to IaC with Terraform, learning syntax, configuration files, state management, and best practices for provisioning infrastructure.",
+      "duration": "Shared within 16 weeks",
+      "tags": ["devops", "iac", "terraform", "provisioning"]
+    },
+    {
+      "module_id": "cd_c2_m6",
+      "module_title": "Configuration Management with Ansible",
+      "description": "Introduction to Ansible for configuration management, covering playbooks, YAML syntax, roles, tasks, and Ansible Tower.",
+      "duration": "Shared within 16 weeks",
+      "tags": [
+        "devops",
+        "configuration management",
+        "ansible",
+        "automation",
+        "playbooks"
+      ]
+    },
+    {
+      "module_id": "cd_c2_m7",
+      "module_title": "Container Orchestration using Kubernetes",
+      "description": "Introduction to Kubernetes, its architecture, deploying applications on clusters, and managing resources with kubectl.",
+      "duration": "Shared within 16 weeks",
+      "tags": [
+        "devops",
+        "kubernetes",
+        "k8s",
+        "container orchestration",
+        "pods",
+        "services"
+      ]
+    },
+    {
+      "module_id": "cd_c2_m8",
+      "module_title": "Monitoring and Logging in Kubernetes",
+      "description": "Learn advanced Kubernetes concepts like Deployments, StatefulSets, scaling, security best practices, and cluster administration.",
+      "duration": "Shared within 16 weeks",
+      "tags": [
+        "devops",
+        "kubernetes",
+        "monitoring",
+        "logging",
+        "scaling",
+        "security"
+      ]
+    },
+    {
+      "module_id": "cd_c3_m1",
+      "module_title": "Mastering Microsoft Azure",
+      "description": "Overview of Microsoft Azure, setting up an account, and learning about services like Virtual Machines, Blob Storage, Azure SQL Database, Azure Functions, and Azure Active Directory.",
+      "duration": "6 weeks",
+      "tags": [
+        "azure",
+        "virtual machines",
+        "blob storage",
+        "azure sql",
+        "azure functions",
+        "active directory"
+      ]
+    },
+    {
+      "module_id": "cd_c3_m2",
+      "module_title": "CI/CD and IaC on Azure",
+      "description": "Implementing CI/CD pipelines with Azure DevOps, container orchestration with AKS, and deploying infrastructure with ARM templates.",
+      "duration": "Shared within 6 weeks",
+      "tags": [
+        "azure",
+        "devops",
+        "ci/cd",
+        "aks",
+        "kubernetes",
+        "iac",
+        "arm templates"
+      ]
+    },
+    {
+      "module_id": "cd_c4_m1",
+      "module_title": "Mastering Google Cloud Platform",
+      "description": "Overview of GCP, setting up an account, and learning services like Compute Engine, Cloud Storage, Cloud SQL, VPC, and IAM.",
+      "duration": "5 weeks",
+      "tags": [
+        "gcp",
+        "google cloud",
+        "compute engine",
+        "cloud storage",
+        "cloud sql",
+        "vpc",
+        "iam"
+      ]
+    },
+    {
+      "module_id": "cd_c4_m2",
+      "module_title": "CI/CD and IaC on Google Cloud Platform",
+      "description": "Setting up CI/CD pipelines with Google Cloud Build, container orchestration with GKE, and infrastructure provisioning using Deployment Manager and Puppet.",
+      "duration": "Shared within 5 weeks",
+      "tags": [
+        "gcp",
+        "devops",
+        "ci/cd",
+        "gke",
+        "kubernetes",
+        "iac",
+        "deployment manager"
+      ]
+    },
+    {
+      "module_id": "cd_c5_m1",
+      "module_title": "DevSecOps",
+      "description": "Learn DevSecOps principles, integrating security into the DevOps pipeline, security automation, code analysis, container security, and secrets management.",
+      "duration": "Shared within 2 weeks",
+      "tags": [
+        "devops",
+        "security",
+        "devsecops",
+        "vulnerability scanning",
+        "container security"
+      ]
+    },
+    {
+      "module_id": "cd_c5_m2",
+      "module_title": "Advanced DevOps and SynOps",
+      "description": "Implement the DevOps pipeline for an advanced use case and get an introduction to SynOps methodology for optimizing operational processes.",
+      "duration": "Shared within 2 weeks",
+      "tags": ["devops", "synops", "operations"]
+    },
+    {
+      "module_id": "cd_c6_m1",
+      "module_title": "AI Tools for Cloud and DevOps",
+      "description": "Understand how GenAI is impacting Cloud services and DevOps using tools like Harness, APMs, CodeGuru, and Snyk.",
+      "duration": "2 weeks",
+      "tags": ["ai", "genai", "cloud", "devops", "codeguru", "snyk"]
+    }
+  ]
+}
